@@ -1,4 +1,6 @@
-
+.img-fluid{
+    width: 100%;
+}
 .chu-de-san-pham{
     max-width:60%;
     margin: 1% 20% 0 auto;
@@ -26,10 +28,10 @@ nav{
     margin: 0 15px 0 0;
 }
 .anhto{
-    height:54%;
+    height:46%;
 }
 .anhvua{
-    height:56%;
+    height:48%;
 }
 .page-item{
     font-size:80%;
@@ -66,11 +68,10 @@ nav{
     background-color: white;
     color:#c1c1c1;
 }
-.figure p, img p{
-    font-size:86%;
+.figure p{
+    font-size:70%;  
     line-height: 0;
 }
 .abc{
-    font-size:86%;
     display:inline;
 }
