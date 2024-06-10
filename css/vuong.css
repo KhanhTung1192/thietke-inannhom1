@@ -1,0 +1,12 @@
+.line {
+    display:inline-block;
+    
+}
+.border{
+    display: inline-block;
+}
+select{
+    border:1px solid black;
+    border-radius: 100px;    
+    padding: 5px;  
+}
