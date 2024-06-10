@@ -1,0 +1,17 @@
+.button {
+    color: red;
+    background-color: yellow;
+    border-radius: 100px;
+    padding: auto 25px;
+}
+.foot {
+    background-color: black;
+    color: whitesmoke;
+}
+.foot a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+.foot p {
+    color: #bfbfbf;
+}
