@@ -1,6 +1,5 @@
 .container {
     padding-right: 0;
-    margin-right: 0;
     padding-bottom: 15px;
 }
 .row {
@@ -10,28 +9,44 @@
 .foot {
     background-color: black;
     color: whitesmoke;
-    padding: 20px 15% 0 15%;
+}
+.tab {
+    padding: 10px 10% 0 10%;
+}
+.foot .tel {
+    color: #ffda00 !important;
 }
 .foot a {
     text-decoration: none;
+    font-size: 18px;
     color: #bfbfbf;
 }
 .foot p {
     color: #bfbfbf;
-    margin: auto auto 0 auto;
-}
-.nav {
-    background-color: #ffb300;
-    text-decoration: none;
+    font-size: 18px;
 }
 .footer {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     background-color: #ffb300;
-    padding: 20px 15% 0 15%;
+    padding: 10px 15% 0 15%;
 }
 .footer p {
-    font-size: 12px;
+    font-size: 16px;
+}
+.footer.row {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-wrap: wrap;        
+    margin-left: 0;
+}
+.footer .col {
+    flex: 1 1 200px;        
+    text-align: center;     
+    display: flex;          
+    align-items: center;    
+    justify-content: center;
 }
 .footer-section {
     text-align: left;
@@ -42,56 +57,60 @@
     display: block;
     margin-right: 15px;
     width: auto;
-    height: 35px;
+    height: 45px;
 }
 .voucher-container {
     text-align: center;
     position: relative;
     background: rgba(0, 0, 0, 0.7);
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     border-radius: 10px;
+    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
 }
+.voucher-container p {
+    color: #fff;
+}
 .voucher-button {
     display: inline-block;
-    background-color: #FFF400;
-    color: #9C0920;
+    background-color: #fff400;
+    color: #9c0920;
     font-weight: bold;
-    font-size: 5vw;
-    padding: 2vh 4vw;
+    font-size: 2vw;
+    padding: 0.75vh 4vw;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     position: relative;
-    box-shadow: 0 2vh 4vh rgba(255, 255, 255, 0.5);
+    margin: 20px auto;
 }
 
 .voucher-button::before,
 .voucher-button::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50%;
     width: 0;
     height: 0;
     border-style: solid;
     transform: translateY(-50%) scale(1.5);
-    animation: blink 1s infinite;
+    animation: blink 0.5s infinite;
 }
 
 .voucher-button::before {
-    left: -5vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
-    border-width: 1.5vh 2vw; /* Thay đổi kích thước tam giác */
+    left: -4vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
+    border-width: 1.3vh 1.3vw; /* Thay đổi kích thước tam giác */
     border-color: transparent transparent transparent #66ff66;
 }
 
 .voucher-button::after {
-    right: -5vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
-    border-width: 1.5vh 2vw; /* Thay đổi kích thước tam giác */
+    right: -4vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
+    border-width: 1.3vh 1.3vw; /* Thay đổi kích thước tam giác */
     border-color: transparent #66ff66 transparent transparent;
-    animation: blink-right 1s infinite;
+    animation: blink-right 0.5s infinite;
 }
 
 p {
@@ -133,6 +152,27 @@ p {
         border-color: transparent #66ff66 transparent transparent;
     }
 }
+
 .clms {
     padding-top: 24px;
+}
+.clms .sepa {
+    height: 300px;
+    padding: 0 0;
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Tỷ lệ 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
