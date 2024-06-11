@@ -1,0 +1,77 @@
+.img-fluid{
+    width: 100%;
+}
+.chu-de-san-pham{
+    max-width:60%;
+    margin: 1% 20% 0 auto;
+}
+table{
+    max-width:61%;
+    margin: 0 19.5% 0 auto;
+}
+.line {
+    display:inline-block;
+    color:white;
+    background-color: rgb(205,77,77);
+    margin: 0 15px 0 0;
+}
+.form-select{
+    color: #c1c1c1;
+    max-width: 15%;
+    display: inline-block;
+    margin: 0 15px 0 0;
+    border:  1px solid #c1c1c1;
+    border-radius: 100px;
+}
+nav{
+    display: inline-block;
+    margin: 0 15px 0 0;
+}
+.anhto{
+    height:46%;
+}
+.anhvua{
+    height:48%;
+}
+.page-item{
+    font-size:80%;
+}
+
+.page-item a{
+    color: #c1c1c1;
+    text-decoration-line: none;
+    padding: 5px;
+}
+.page-item a:hover, a.on{
+    color: rgb(205,77,77);
+    padding: 5px;
+}
+.xemthem{
+    margin: 1% 0 0 0;
+    font-size:80%;
+    display:inline-block;
+    float:right;
+}
+.xemthem a{
+    text-decoration-line: none;
+    color:black;
+}
+.xemthem a:hover {
+    color: rgb(205,77,77);
+    padding: 5px;
+}
+.btn p, .btn p:hover{
+    display:inline;
+    color:rgb(205,77,77);
+}
+.btn:hover{
+    background-color: white;
+    color:#c1c1c1;
+}
+.figure p{
+    font-size:70%;  
+    line-height: 0;
+}
+.abc{
+    display:inline;
+}
