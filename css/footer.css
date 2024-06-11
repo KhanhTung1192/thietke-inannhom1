@@ -1,0 +1,22 @@
+.button {
+    color: #9C0920;
+    background-color: #FFF400;
+    border-radius: 100px;
+    /* padding: auto 64px; */
+    /* margin: auto 64px; */
+}
+.foot {
+    background-color: black;
+    color: whitesmoke;
+}
+.foot a {
+    text-decoration: none;
+    color: #bfbfbf;
+}
+.foot p {
+    color: #bfbfbf;
+}
+.nav {
+    background-color: #FFB300;
+    text-decoration: none;
+}
