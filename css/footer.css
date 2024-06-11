@@ -1,8 +1,9 @@
 .button {
-    color: red;
-    background-color: yellow;
+    color: #9C0920;
+    background-color: #FFF400;
     border-radius: 100px;
-    padding: auto 25px;
+    /* padding: auto 64px; */
+    /* margin: auto 64px; */
 }
 .foot {
     background-color: black;
@@ -14,4 +15,8 @@
 }
 .foot p {
     color: #bfbfbf;
+}
+.nav {
+    background-color: #FFB300;
+    text-decoration: none;
 }
