@@ -1,8 +1,9 @@
 .img-tintuc{
     width: 100%;
     height: 500px;
+    margin-bottom: 70px;
 }
-.under{
+.banner{
     color: black;
     text-align: center;
     font-size: 40px;
@@ -10,19 +11,42 @@
 .color{
     color: red;
 }
-.custom{
-    float: center;
-}
-table{
-    max-width:61%;
-    margin: 0 19.5% 0 auto;
-}
 .item{
     float: left;
     padding-left: 20px;
     margin-left: 100px;
     margin-top: 70px;
 }
-.text{
-    display: inline;
+.banner p{
+    margin: 0;
+}
+.fix{
+    width: 10%;
+    margin: 10px;
+    display: inline-block;
+    
+}
+.carousel-item{
+    padding-left: 600px;
+   
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+            background-color: yellow;
+        }
+            .carousel-control-prev {
+                left: 400px;
+            }
+    
+            .carousel-control-next {
+                right: 620px; }
+                
+/* .text{
+    display: inline-block;
+    font-size: 10px;
+} */
+.fix p{
+    display: inline-block;
+    max-width: 100%;
+    
 }
