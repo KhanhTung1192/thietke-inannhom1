@@ -1,3 +1,56 @@
+
+/* Cho màn hình nhỏ hơn hoặc bằng 600px (thường là điện thoại) */
+@media only screen and (max-width: 600px) {
+    .figure p{
+        font-size:30%;  
+        line-height: 0;
+    }
+    .page-item{
+        font-size:50%;
+        
+    }
+    .xemthem{
+        font-size:50%;
+    }
+    .xemthem{
+        font-size:50%;
+    }
+}
+/* Cho màn hình từ 601px đến 1200px (máy tính bảng) */
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    .figure p{
+        font-size:35%;  
+        line-height: 0;
+    }
+    .page-item{
+        font-size:40%;
+        
+    }
+    .xemthem{
+        font-size:40%;
+    }
+    .gia{
+        font-size:40%
+    }
+}
+
+/* Cho màn hình lớn hơn 1200px (máy tính để bàn) */
+@media only screen and (min-width: 1201px) {
+    .figure p{
+        font-size:70%;  
+    }
+    .page-item{
+        font-size: 80%;      
+    }
+    .xemthem{
+        font-size:80%;
+    }
+    .gia{
+        font-size:100%;
+    }
+}
+
+
 .img-fluid{
     width: 100%;
 }
@@ -33,14 +86,12 @@ nav{
 .anhvua{
     height:48%;
 }
-.page-item{
-    font-size:80%;
-}
 
 .page-item a{
     color: #c1c1c1;
     text-decoration-line: none;
     padding: 5px;
+    
 }
 .page-item a:hover, a.on{
     color: rgb(205,77,77);
@@ -48,7 +99,6 @@ nav{
 }
 .xemthem{
     margin: 1% 0 0 0;
-    font-size:80%;
     display:inline-block;
     float:right;
 }
@@ -69,9 +119,11 @@ nav{
     color:#c1c1c1;
 }
 .figure p{
-    font-size:70%;  
     line-height: 0;
 }
 .abc{
     display:inline;
+}
+figcaption img{
+    width:10%;
 }
