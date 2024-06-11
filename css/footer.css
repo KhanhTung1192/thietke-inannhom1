@@ -1,6 +1,16 @@
+.container {
+    padding-right: 0;
+    margin-right: 0;
+    padding-bottom: 15px;
+}
+.row {
+    padding-right: 0;
+    margin-right: 0;
+}
 .foot {
     background-color: black;
     color: whitesmoke;
+    padding: 20px 15% 0 15%;
 }
 .foot a {
     text-decoration: none;
@@ -8,6 +18,7 @@
 }
 .foot p {
     color: #bfbfbf;
+    margin: auto auto 0 auto;
 }
 .nav {
     background-color: #ffb300;
@@ -17,17 +28,21 @@
     display: flex;
     justify-content: space-around;
     background-color: #ffb300;
-    padding: 20px 0;
+    padding: 20px 15% 0 15%;
+}
+.footer p {
+    font-size: 12px;
 }
 .footer-section {
     text-align: left;
     color: white;
+    display: flex;
 }
 .footer-icon {
     display: block;
-    margin: 0 auto 10px;
-    width: 50px;
-    height: auto;
+    margin-right: 15px;
+    width: auto;
+    height: 35px;
 }
 .voucher-container {
     text-align: center;
@@ -117,4 +132,7 @@ p {
     100% {
         border-color: transparent #66ff66 transparent transparent;
     }
+}
+.clms {
+    padding-top: 24px;
 }
