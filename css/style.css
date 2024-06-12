@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+}
 #carouselProduct.carousel.slide .row{
     width: 90%;
 margin: auto;
