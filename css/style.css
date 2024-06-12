@@ -6,7 +6,7 @@ max-height: 200px;
 
 #carouselProduct button.carousel-control-prev, #carouselProduct .carousel-control-next{
     background-color: black;
-    width: 10%;
+    width: 6%;
 }
 
 #carouselProduct .carousel-control-prev{
@@ -82,4 +82,12 @@ background-color: brown;
 .white-background{
     background-color: white;
     color: grey;
+}
+
+#sp-noi-bat a{
+    text-transform: uppercase;
+}
+
+#chu-de a{
+    text-transform: uppercase;
 }
