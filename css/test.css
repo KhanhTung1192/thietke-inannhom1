@@ -1,0 +1,22 @@
+.test .row{
+    border: solid 1px rgb(43, 12, 214);
+}
+
+.test .col-1, .test .col-2, .test .col-3, .test .col-4, .test .col-5, .test .col-6, .test .col-7, .test .col-8, .test .col-9, .test .col-10{
+    border: solid 1px rgb(151, 59, 59);
+}
+.anhtintuc{
+    height:10rem;
+}
+.icontintuc{
+    height: 3rem;
+}
+.noidungtintuc{
+    height: 7rem;
+}
+.nuttintuc{
+    height: 4rem;
+}
+.hangtintuc3{
+    height: 10rem;
+}

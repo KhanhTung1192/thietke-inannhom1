@@ -16,12 +16,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="/css/vuong.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/robotofamily.css" />
     <link rel="stylesheet" href="/css/slider.css" />
     <link rel="stylesheet" href="/css/footer.css" />
     <link rel="stylesheet" href="/css/trdung.css">
+    <link rel="stylesheet" href="/css/test.css">
     <style>
       .rem3 {
         height: 3rem;
@@ -140,13 +142,61 @@
         font-size: large;
       }
       .coverimg{
-        image-resolution: ;
+        /* image-resolution: ; */
       }
     </style>
   </head>
   <body>
     <!-- header Khanh Tung -->
-    <header>
+    <header><div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+      <div class="container test">
+        <div class="row hangtintuc3">
+          <div class="col-1"></div>
+          <div class="col-10"></div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-1"><button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button></div>
+          <div class="col-10">
+            <div class="row">
+            <div class="col-3 cottintuc3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+            <div class="col-3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+            <div class="col-3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+            <div class="col-3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+          </div>
+          </div>
+          <div class="col-1"><button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button> </div>
+        </div>
+      </div>
+    </div> 
+    </div>
       <div class="back1">
         <div class="container">
           <div class="row rem3">
@@ -817,14 +867,14 @@
         <nav>
           <ul class="pagination">
             <li class="page-item">PAGE</li>
-            <li class="page-item">&#9654;</li>
+            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
             <li class="page-item"><a href="#" class="on">1</a></li>
             <li class="page-item"><a href="#">2</a></li>
             <li class="page-item"><a href="#">3</a></li>
             <li class="page-item"><a href="#">4</a></li>
             <li class="page-item"><a href="#">5</a></li>
             <li class="page-item"><a href="#">6</a></li>
-            <li class="page-item">&#9664;</li>
+            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
           </ul>
         </nav>
         <div class="xemthem">
@@ -1084,7 +1134,7 @@
       <!-- Tin tuc, In an Trung Dung -->
       <!-- chi tiet tin tuc, xem tin tuc Trung Dung -->
       <div class="banner">
-        <img src="img/anh-to-ngang.png" class="img-tintuc" alt="...">
+        <img src="img/sale20.png" class="img-tintuc" alt="...">
         <p>Tin tức in ấn, xu hướng thiết kế</p>
         <p style="color: red;">Tin Tức cập nhật</p>
     </div>
@@ -1115,16 +1165,48 @@
             </div>
           </div>
           <div class="carousel-item">
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+              </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
           </div>
           <div class="carousel-item">
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
-            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="..."></div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
