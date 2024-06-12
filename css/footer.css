@@ -1,9 +1,8 @@
-.container {
+footer .container {
     padding-right: 0;
     padding-bottom: 15px;
 }
-.row {
-    padding-right: 0;
+footer .row {
     margin-right: 0;
 }
 .foot {
