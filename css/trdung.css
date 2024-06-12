@@ -1,48 +1,40 @@
-.img-tintuc{
-    width: 100%;
-    height: 500px;
-    margin-bottom: 70px;
+.img-tintuc {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 70px;
 }
-.banner{
-    color: black;
-    text-align: center;
-    font-size: 40px;
+.banner {
+  color: black;
+  text-align: center;
+  font-size: 40px;
 }
-.color{
-    color: red;
+.color {
+  color: red;
 }
 
-.banner p{
-    margin: 0;
+.banner p {
+  margin: 0;
 }
-.fix{
-    width: 20%;
-    margin: 10px;
-    display: inline-block;
-    
+.fix {
+  width: 20%;
+  margin: 10px;
+  display: inline-block;
 }
-.tintuc .carousel-item{
-    padding-left: 600px;
-   
+.tintuc .carousel-item {
+    text-align: center;
 }
 .tintuc .carousel-control-prev-icon,
 .tintuc .carousel-control-next-icon {
-            background-color: yellow;
-        }
-            .carousel-control-prev {
-                left: 400px;
-            }
-    
-            .carousel-control-next {
-                right: 620px; }
-                
+  background-color: yellow;
+}
+
 /* .text{
     display: inline-block;
     font-size: 10px;
 } */
-.fix p{
-    display: inline-block;
-    max-width: 100%;
-    word-wrap: break-word;
-    font-size: 10px;
+.fix p {
+  display: inline-block;
+  max-width: 100%;
+  word-wrap: break-word;
+  font-size: 10px;
 }
