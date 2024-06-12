@@ -16,6 +16,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel=”stylesheet” href=”https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css” />
     <link rel="stylesheet" href="/css/vuong.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/robotofamily.css" />
@@ -269,6 +270,7 @@
     <img src="" alt="" />
     <main>
       <!-- slider img Tien Huy -->
+       <div class="container">
       <div id="carouselProduct" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
@@ -357,7 +359,7 @@
         <div class="col"><h3>Sản phẩm nổi bật</h3></div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -372,7 +374,7 @@
         </div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -448,6 +450,8 @@
           <div class="carousel-item">Poison</div>
         </div>
       </div>
+    </div>
+    </div>
       <!-- filter, page, xem them Tien Huy -->
       <div class="container">
         <div class="col"></div>
@@ -699,13 +703,14 @@
       <div class="row banner">
         <img src="img/ff7integrade.jpg" alt="banner" />
       </div>
+      <div class="container">
       <div class="row" id="chu-de">
         <div class="col">
           <h3>Sản phẩm theo chủ đề</h3>
         </div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -720,7 +725,7 @@
         </div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -786,6 +791,7 @@
           <a href="#">Xem thêm</a>
         </div>
       </div>
+    </div>
       <!-- Cum san pham 2 Vuong -->
       <div class="chu-de-san-pham">
         <p class="line">SẢN PHẨM THEO CHỦ ĐỀ</p>
@@ -812,14 +818,14 @@
         <nav>
           <ul class="pagination">
             <li class="page-item">PAGE</li>
-            <li class="page-item">&#9654;</li>
+            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
             <li class="page-item"><a href="#" class="on">1</a></li>
             <li class="page-item"><a href="#">2</a></li>
             <li class="page-item"><a href="#">3</a></li>
             <li class="page-item"><a href="#">4</a></li>
             <li class="page-item"><a href="#">5</a></li>
             <li class="page-item"><a href="#">6</a></li>
-            <li class="page-item">&#9664;</li>
+            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
           </ul>
         </nav>
         <div class="xemthem">
@@ -1240,27 +1246,30 @@
                         <div class="col">
                             <h5>Về chúng tôi</h5>
                             <img src="./img/logo-foot.png" alt="">
+                            <br>
+                            <br>
                             <p>
                                 MST: 0108776768 <br />
                                 Email: Inminhphat.com@gmail.com <br />
-                                VPĐD: Số 1, ngõ 120 Định Công, Phương Liệt,
-                                Thanh Xuân, Hà Nội <br />
-                                HOTLINE:
-                                <a href="tel:+84949526923" class="tel">0949 526 923</a>
-                                <br />
-                                CSKH:
-                                <a href="tel:+84971214189" class="tel">0971 214 189</a>
+                                VPĐD: Số 1, ngõ 120 Định Công, <br>
+                                Phương Liệt, Thanh Xuân, Hà Nội <br />
                             </p>
                         </div>
                         <div class="col sepa">
                             <h5>Với khách hàng</h5>
+                            HOTLINE:
+                            <a href="tel:+84949526923" class="tel">0949 526 923</a>
+                            <br />
+                            CSKH:
+                            <a href="tel:+84971214189" class="tel">0971 214 189</a>
+                            <br>
                             <a href="">HƯỚNG DẪN IN ẤN</a><br />
                             <a href="">HƯỚNG DẪN ĐẶT HÀNG</a><br />
                             <a href="">HƯỚNG DẪN THANH TOÁN</a><br />
                             <a href="">CHÍNH SÁCH IN ẤN</a><br />
                             <a href="">CHÍNH SÁCH BẢO MẬT</a><br />
                         </div>
-                        <div class="col-5">
+                        <div class="col">
                             <h5>Bản đồ</h6>
                             <div class="map-container">
                                 <iframe
