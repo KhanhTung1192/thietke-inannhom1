@@ -1,7 +1,8 @@
 .img-tintuc{
     width: 100%;
-    height: 500px;
+    /* height: 50px;
     margin-bottom: 70px;
+   */
 }
 .banner{
     color: black;
@@ -16,25 +17,20 @@
     margin: 0;
 }
 .fix{
-    width: 20%;
+    width: 15%;
     margin: 10px;
     display: inline-block;
     
 }
 .tintuc .carousel-item{
-    padding-left: 600px;
+    /* padding-left: 600px; */
    
 }
-.tintuc .carousel-control-prev-icon,
+/* .tintuc .carousel-control-prev-icon,
 .tintuc .carousel-control-next-icon {
             background-color: yellow;
-        }
-            .carousel-control-prev {
-                left: 400px;
-            }
-    
-            .carousel-control-next {
-                right: 620px; }
+        } */
+            
                 
 /* .text{
     display: inline-block;
@@ -44,5 +40,27 @@
     display: inline-block;
     max-width: 100%;
     word-wrap: break-word;
-    font-size: 10px;
+    font-size: 16px;
 }
+.tintuc .carousel-control-prev-icon {
+    background-image: url('../img/Vector.png'); 
+    background-size: contain; /* Đảm bảo hình ảnh nằm gọn trong biểu tượng */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+    
+}
+
+.tintuc .carousel-control-next-icon {
+    background-image: url('../img/Vectorred.png'); 
+    background-size: contain; /* Đảm bảo hình ảnh nằm gọn trong biểu tượng */
+    background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+}
+ .carousel-control-prev-icon,
+     .carousel-control-next-icon {
+            background-image: none; /* Loại bỏ biểu tượng mũi tên mặc định của Bootstrap */
+            width: 70px; /* Tùy chỉnh kích thước biểu tượng */
+            height: 70px; /* Tùy chỉnh kích thước biểu tượng */
+            /* border-radius: 50%; Tùy chỉnh hình dạng biểu tượng */
+        }
+        .carousel-inner{
+            margin: 0 0 0 15%;
+        }
