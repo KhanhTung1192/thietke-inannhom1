@@ -4,7 +4,6 @@
     color:white;
     background-color: rgb(205,77,77);
     padding: 0.3rem;
-    margin: 0 15px 0 0;
     float:left;
 }
 .marg{
@@ -23,10 +22,16 @@ nav{
     display: inline-block;
 }
 .anhto{
-    height: 49rem;
+    float:left;
+    height: 50rem;
+    width: 20rem;
 }
 .anhvua{
     height:24.4rem;
+}
+.anhgiua{
+    width:100rem;
+    margin: 5rem 0 5rem 0;
 }
 .pagination{
     font-size:0.8rem;
@@ -63,7 +68,9 @@ nav{
     background-color: white;
     color:#c1c1c1;
 }
-
+.mota img{
+    width: 1.5rem;
+}
 .mota p{
     display:inline;
     font-size: 14px;
@@ -117,11 +124,14 @@ nav{
     margin: 0 0 0 0;
 }
 .anhchitiet{
-    width: 22rem;
+    width: 23rem;
 }
 .sanphamtuongtu{
     display:inline;
     font-size: 1.3rem;
+}
+.sanphamtuongtu1{
+    margin-left: 0.7rem;
 }
 .chitietsanpham img{
     width: 2rem;
