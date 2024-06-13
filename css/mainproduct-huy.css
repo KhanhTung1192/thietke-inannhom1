@@ -1,0 +1,39 @@
+#productSection{
+    object-fit: scale-down;
+    white-space: nowrap;
+}
+
+#productSection .productImage{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    
+}
+
+#listofProduct{
+    font-size: 13px;
+}
+
+#listofProduct span{
+    color: red;
+}
+
+.trang-span{
+    vertical-align: super;
+}
+
+#listofProduct .trang-span.yellow{
+    color: rgb(250, 225, 2);
+}
+
+#listofProduct .border{
+    border-radius: 10px;
+}
+
+#mainproduct-filter{
+    margin: 2em 0;
+}
+
+.chosen{
+    background-color: brown;
+}
