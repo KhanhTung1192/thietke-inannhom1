@@ -21,6 +21,8 @@
     margin: auto;
     padding: 16px;
     width: 90%;	
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
 }
 p ins {
     margin-right: 260px;
@@ -42,4 +44,23 @@ a {
 
 .form-check-input {
     padding: 10px 10px;
+}
+
+.btn_google ,.btn_facebook {
+    width: 80%;
+    border: 1px solid black;
+    box-shadow: 1px 1px black;
+}
+
+.btn_login {
+    background-color: #F5F5F5;
+    height: 70px;
+}
+
+.thumbnail {
+    background-color: rgb(207, 196, 196);
+}
+
+.thumbnail_img {
+    width: 15%;
 }
