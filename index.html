@@ -16,10 +16,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/vuong.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="/css/vuong.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/robotofamily.css" />
     <link rel="stylesheet" href="/css/slider.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/trdung.css">
+    <link rel="stylesheet" href="/css/test.css">
     <style>
       .rem3 {
         height: 3rem;
@@ -138,13 +142,61 @@
         font-size: large;
       }
       .coverimg{
-        image-resolution: ;
+        /* image-resolution: ; */
       }
     </style>
   </head>
   <body>
     <!-- header Khanh Tung -->
-    <header>
+    <header><div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+      <div class="container test">
+        <div class="row hangtintuc3">
+          <div class="col-1"></div>
+          <div class="col-10"></div>
+          <div class="col-1"></div>
+        </div>
+        <div class="row">
+          <div class="col-1"><button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button></div>
+          <div class="col-10">
+            <div class="row">
+            <div class="col-3 cottintuc3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+            <div class="col-3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+            <div class="col-3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+            <div class="col-3">
+              <div class="row anhtintuc"></div>
+              <div class="row icontintuc"></div>
+              <div class="row noidungtintuc"></div>
+              <div class="row nuttintuc"></div>
+            </div>
+          </div>
+          </div>
+          <div class="col-1"><button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button> </div>
+        </div>
+      </div>
+    </div> 
+    </div>
       <div class="back1">
         <div class="container">
           <div class="row rem3">
@@ -267,6 +319,7 @@
     <img src="" alt="" />
     <main>
       <!-- slider img Tien Huy -->
+       <div class="container">
       <div id="carouselProduct" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
@@ -355,7 +408,7 @@
         <div class="col"><h3>Sản phẩm nổi bật</h3></div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -370,7 +423,7 @@
         </div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -446,6 +499,8 @@
           <div class="carousel-item">Poison</div>
         </div>
       </div>
+    </div>
+    </div>
       <!-- filter, page, xem them Tien Huy -->
       <div class="container">
         <div class="col"></div>
@@ -695,15 +750,16 @@
       </table>
       <!-- img Tien Huy-->
       <div class="row banner">
-        <img src="img/ff7integrade.jpg" alt="banner" />
+        <!-- <img src="img/ff7integrade.jpg" alt="banner" /> -->
       </div>
+      <div class="container">
       <div class="row" id="chu-de">
         <div class="col">
           <h3>Sản phẩm theo chủ đề</h3>
         </div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -718,7 +774,7 @@
         </div>
         <div class="col">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="btn btn-secondary dropdown-toggle white-background"
             type="button"
             data-bs-toggle="dropdown"
             aria-expanded="false"
@@ -784,6 +840,7 @@
           <a href="#">Xem thêm</a>
         </div>
       </div>
+    </div>
       <!-- Cum san pham 2 Vuong -->
       <div class="chu-de-san-pham">
         <p class="line">SẢN PHẨM THEO CHỦ ĐỀ</p>
@@ -810,14 +867,14 @@
         <nav>
           <ul class="pagination">
             <li class="page-item">PAGE</li>
-            <li class="page-item">&#9654;</li>
+            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
             <li class="page-item"><a href="#" class="on">1</a></li>
             <li class="page-item"><a href="#">2</a></li>
             <li class="page-item"><a href="#">3</a></li>
             <li class="page-item"><a href="#">4</a></li>
             <li class="page-item"><a href="#">5</a></li>
             <li class="page-item"><a href="#">6</a></li>
-            <li class="page-item">&#9664;</li>
+            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
           </ul>
         </nav>
         <div class="xemthem">
@@ -1074,34 +1131,220 @@
         </tbody>
       </table>
       <!-- img Trung Dung-->
-      <img src="" alt="" />
       <!-- Tin tuc, In an Trung Dung -->
-      <div class="container">
-        <div class="col"></div>
-      </div>
       <!-- chi tiet tin tuc, xem tin tuc Trung Dung -->
-      <div class="container">
-        <div class="col"></div>
+      <div class="banner">
+        <img src="img/sale20.png" class="img-tintuc" alt="...">
+        <p>Tin tức in ấn, xu hướng thiết kế</p>
+        <p style="color: red;">Tin Tức cập nhật</p>
+    </div>
+    <div class="container tintuc">
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+                <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                    <img src="img/mat.jpg" alt=""><p>1754</p>
+                    <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+                <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                    <img src="img/mat.jpg" alt=""><p>1754</p>
+                    <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+                <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                    <img src="img/mat.jpg" alt=""><p>1754</p>
+                    <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+                <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                    <img src="img/mat.jpg" alt=""><p>1754</p>
+                    <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+              </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+            <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
+              <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
+                <img src="img/mat.jpg" alt=""><p>1754</p>
+                <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+    </div>
     </main>
     <footer>
       <!-- chat luong gia thanh tien do van chuyen Quang Huy -->
-      <div class="container">
-        <div class="col"></div>
+      <div class="footer row">
+          <div class="col">
+              <div class="footer-section">
+                  <img
+                      src="./img/qlt-foot.png"
+                      alt="Quality Icon"
+                      class="footer-icon"
+                  />
+                  <p>
+                      CHẤT LƯỢNG <br />
+                      Luôn cao cấp
+                  </p>
+              </div>
+          </div>
+          <div class="col">
+              <div class="footer-section">
+                  <img
+                      src="./img/prc-foot.png"
+                      alt="Price Icon"
+                      class="footer-icon"
+                  />
+                  <p>
+                      Giá Thành <br />
+                      Luôn Cạnh Tranh
+                  </p>
+              </div>
+          </div>
+          <div class="col">
+              <div class="footer-section">
+                  <img
+                      src="./img/spd-foot.png"
+                      alt="Speed Icon"
+                      class="footer-icon"
+                  />
+                  <p>
+                      Tiến Độ <br />
+                      Luôn Luôn Nhanh
+                  </p>
+              </div>
+          </div>
+          <div class="col">
+              <div class="footer-section">
+                  <img
+                      src="./img/deli-foot.png"
+                      alt="Delivery Icon"
+                      class="footer-icon"
+                  />
+                  <p>
+                      Vận Chuyển <br />
+                      Luôn Miễn Phí
+                  </p>
+              </div>
+          </div>
       </div>
-      <!-- Voucher Quang Huy -->
-      <div class="container">
-        <div class="col"></div>
+      <div class="foot">
+          <div class="content">
+            <div class="tab">
+                <!-- Voucher Quang Huy -->
+                <div class="container text-center">
+                    <div class="voucher-container">
+                        <p>
+                            click ngay để nhận voucher 500.000 THIẾT KẾ VÀ IN ẤN
+                            TẠI IN MINH PHÁT
+                        </p>
+                        <button class="voucher-button">500.000 đ</button>
+                    </div>
+                </div>
+                <!-- 3 collums lien he, ban do Quang Huy -->
+                <div class="container text-center clms">
+                    <div class="row align-items-start">
+                        <div class="col">
+                            <h5>Về chúng tôi</h5>
+                            <img src="./img/logo-foot.png" alt="">
+                            <br>
+                            <br>
+                            <p>
+                                MST: 0108776768 <br />
+                                Email: Inminhphat.com@gmail.com <br />
+                                VPĐD: Số 1, ngõ 120 Định Công, <br>
+                                Phương Liệt, Thanh Xuân, Hà Nội <br />
+                            </p>
+                        </div>
+                        <div class="col sepa">
+                            <h5>Với khách hàng</h5>
+                            HOTLINE:
+                            <a href="tel:+84949526923" class="tel">0949 526 923</a>
+                            <br />
+                            CSKH:
+                            <a href="tel:+84971214189" class="tel">0971 214 189</a>
+                            <br>
+                            <a href="">HƯỚNG DẪN IN ẤN</a><br />
+                            <a href="">HƯỚNG DẪN ĐẶT HÀNG</a><br />
+                            <a href="">HƯỚNG DẪN THANH TOÁN</a><br />
+                            <a href="">CHÍNH SÁCH IN ẤN</a><br />
+                            <a href="">CHÍNH SÁCH BẢO MẬT</a><br />
+                        </div>
+                        <div class="col">
+                            <h5>Bản đồ</h6>
+                            <div class="map-container">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.208730473723!2d105.83543221040203!3d20.98426848922533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135adcbc3f5dd8d%3A0xb43f82c77fa6b017!2zMSBOZy4gMTIwIMSQ4buLbmggQ8O0bmcsIFBoxrDGoW5nIExp4buHdCwgVGhhbmggWHXDom4sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1718135040727!5m2!1svi!2s"
+                                    allowfullscreen
+                                ></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Copy right Quang Huy -->
+            <hr />
+            <div class="tab">
+                <div class="container">
+                    <div class="col">
+                        <p class="text-center">
+                            Copyright © công ty TNHH thương mại và phát triển
+                            dịch vụ Toàn Phát. All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </div>
+          </div>
       </div>
-      <!-- 3 collums lien he, ban do Quang Huy -->
-      <div class="container">
-        <div class="col"></div>
-      </div>
-      <!-- Copy right Quang Huy -->
-      <div class="container">
-        <div class="col"></div>
-      </div>
-    </footer>
+  </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

@@ -1,49 +1,53 @@
-.carousel.slide .row{
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+#carouselProduct.carousel.slide .row{
     width: 90%;
 margin: auto;
 max-height: 200px;    
 }
 
-button.carousel-control-prev, .carousel-control-next{
+#carouselProduct button.carousel-control-prev, #carouselProduct .carousel-control-next{
     background-color: black;
-    width: 10%;
+    width: 6%;
 }
 
-.carousel-control-prev{
+#carouselProduct .carousel-control-prev{
     text-align: left;
     justify-content: flex-start;
 }
 
-.carousel-control-next{
+#carouselProduct .carousel-control-next{
     justify-content:flex-end;
     padding-right: 1em;
 }
 
-.carousel-control-prev-icon {
+#carouselProduct .carousel-control-prev-icon {
     
     /* background-position: 100%; */
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23c593d8'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e")
 }
 
-.carousel-control-next-icon{
+#carouselProduct .carousel-control-next-icon{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23c593d8'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
 }
 
-.carousel-control-next:focus,
-.carousel-control-next:hover,
-.carousel-control-prev:focus,
-.carousel-control-prev:hover{
+#carouselProduct .carousel-control-next:focus,
+#carouselProduct .carousel-control-next:hover,
+#carouselProduct .carousel-control-prev:focus,
+#carouselProduct .carousel-control-prev:hover{
     opacity: 0.8;
 }
 
-.carousel-item img{
+#carouselProduct .carousel-item img{
     width: 100%;
     height: 100%;
     object-fit: contain;
     
 }
 
-.carousel-item .col{
+#carouselProduct .carousel-item .col{
     /* margin-right: 1em; */
     max-height: inherit;
 }
@@ -69,12 +73,33 @@ background-color: brown;
 .row#sp-noi-bat .col h3, .row#chu-de .col h3{
    text-transform: uppercase;
    color: white;
-   background-color: red;
+   background-color: rgb(190, 22, 22);
+}
+
+.banner{
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
 }
 
 .banner img{
     max-height: 350px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    /* width: 100%; */
+    /* height: 100%; */
+    object-fit:cover ;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.white-background{
+    background-color: white;
+    color: grey;
+}
+
+#sp-noi-bat a{
+    text-transform: uppercase;
+}
+
+#chu-de a{
+    text-transform: uppercase;
 }
