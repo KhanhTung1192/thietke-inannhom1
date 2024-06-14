@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 .img-tintuc{
     width: 100%;
     /* height: 50px;
     margin-bottom: 70px;
    */
-=======
-.img-tintuc {
-  width: 100%;
-  height: 500px;
-  margin-bottom: 70px;
->>>>>>> e89edd078a65ebf9a6d71893034a6e1137d2de89
 }
 .banner {
   color: black;
@@ -23,7 +16,6 @@
 .banner p {
   margin: 0;
 }
-<<<<<<< HEAD
 .fix{
     width: 15%;
     margin: 10px;
@@ -33,33 +25,17 @@
 .tintuc .carousel-item{
     /* padding-left: 600px; */
    
-=======
-.fix {
-  width: 20%;
-  margin: 10px;
-  display: inline-block;
-}
-.tintuc .carousel-item {
-    text-align: center;
->>>>>>> e89edd078a65ebf9a6d71893034a6e1137d2de89
 }
 /* .tintuc .carousel-control-prev-icon,
 .tintuc .carousel-control-next-icon {
-<<<<<<< HEAD
             background-color: yellow;
         } */
             
                 
-=======
-  background-color: yellow;
-}
-
->>>>>>> e89edd078a65ebf9a6d71893034a6e1137d2de89
 /* .text{
     display: inline-block;
     font-size: 10px;
 } */
-<<<<<<< HEAD
 .fix p{
     display: inline-block;
     max-width: 100%;
@@ -71,13 +47,6 @@
     background-size: contain; /* Đảm bảo hình ảnh nằm gọn trong biểu tượng */
     background-repeat: no-repeat; /* Không lặp lại hình ảnh */
     
-=======
-.fix p {
-  display: inline-block;
-  max-width: 100%;
-  word-wrap: break-word;
-  font-size: 10px;
->>>>>>> e89edd078a65ebf9a6d71893034a6e1137d2de89
 }
 
 .tintuc .carousel-control-next-icon {
