@@ -1,41 +1,40 @@
-
+.img-fluid{
+    width: 100%;
+}
+.chu-de-san-pham{
+    max-width:60%;
+    margin: 1% 20% 0 auto;
+}
+table{
+    max-width:61%;
+    margin: 0 19.5% 0 auto;
+}
 .line {
     display:inline-block;
     color:white;
     background-color: rgb(205,77,77);
-    padding: 0.3rem;
-    float:left;
-}
-.marg{
-    margin-top: 2rem;
+    margin: 0 15px 0 0;
 }
 .form-select{
     color: #c1c1c1;
-    width: 20%;
+    max-width: 15%;
     display: inline-block;
+    margin: 0 15px 0 0;
     border:  1px solid #c1c1c1;
     border-radius: 100px;
-    float: left;
-    margin: 0.3rem 0 auto 0;
 }
 nav{
     display: inline-block;
+    margin: 0 15px 0 0;
 }
 .anhto{
-    float:left;
-    height: 50rem;
-    width: 20rem;
+    height:46%;
 }
 .anhvua{
-    height:24.4rem;
+    height:48%;
 }
-.anhgiua{
-    width:100rem;
-    margin: 5rem 0 5rem 0;
-}
-.pagination{
-    font-size:0.8rem;
-    margin: 0.7rem auto 0 1rem;
+.page-item{
+    font-size:80%;
 }
 
 .page-item a{
@@ -48,9 +47,10 @@ nav{
     padding: 5px;
 }
 .xemthem{
+    margin: 1% 0 0 0;
     font-size:80%;
-    float: right;
-    padding: 1.1rem;
+    display:inline-block;
+    float:right;
 }
 .xemthem a{
     text-decoration-line: none;
@@ -68,74 +68,10 @@ nav{
     background-color: white;
     color:#c1c1c1;
 }
-.mota img{
-    width: 1.5rem;
+.figure p{
+    font-size:70%;  
+    line-height: 0;
 }
-.mota p{
+.abc{
     display:inline;
-    font-size: 14px;
-}
-.mota{
-    margin: 0 0 0.6rem 0;
-}
-.btn-border{
-    font-size: 20px;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    border:1px solid white;
-    border-radius: 100px;
-    box-shadow: 0 0 0 1px rgb(205,77,77), 0 0 0 0 rgb(205,77,77), 0 0 0 0 rgb(205,77,77);
-}
-.btn-border:hover{
-    background-color: rgb(158, 4, 4);
-}
-.btn-tuvan{
-    padding-left:5rem;
-    padding-right:5rem;
-}
-.tag{
-    float:left;
-    margin: 1.5rem 0 0 0;
-}
-.tag a{
-    color: rgb(255, 208, 0);
-    text-decoration-line: none;
-}
-.float-right{
-    float:right;
-    padding: 1.1rem;
-}
-.float-right a{
-    margin: 0 1rem 0 0;
-}
-.btn-float-right{
-    float: left;
-    margin: 6rem 0 0 0;
-    background-color: transparent;
-    border: 2px solid #ffffff
-}
-.btn-float-left{
-    float:right;
-    margin: 6rem 0 0 0;
-    background-color: transparent;
-    border: 2px solid #ffffff
-}
-.carousel-inner{
-    margin: 0 0 0 0;
-}
-.anhchitiet{
-    width: 23rem;
-}
-.sanphamtuongtu{
-    display:inline;
-    font-size: 1.3rem;
-}
-.sanphamtuongtu1{
-    margin-left: 0.7rem;
-}
-.chitietsanpham img{
-    width: 2rem;
-}
-.rowchitiet{
-    margin: auto auto 2rem auto;
 }
