@@ -37,3 +37,8 @@
 .chosen{
     background-color: brown;
 }
+
+.white-background{
+    background-color: white;
+    color: grey;
+}
