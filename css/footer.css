@@ -1,22 +1,194 @@
-.button {
-    color: #9C0920;
-    background-color: #FFF400;
-    border-radius: 100px;
-    /* padding: auto 64px; */
-    /* margin: auto 64px; */
+footer .container {
+    padding-right: 0;
+    padding-bottom: 15px;
+}
+footer .row {
+    margin-right: 0;
 }
 .foot {
-    background-color: black;
+    position: relative;
+    background-image: url(../img/anhfooter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     color: whitesmoke;
+}
+.foot::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+}
+.content {
+    position: relative;
+    z-index: 2;
+}
+.tab {
+    padding: 10px 10% 0 10%;
+}
+.foot .tel {
+    color: #ffda00 !important;
 }
 .foot a {
     text-decoration: none;
+    font-size: 18px;
     color: #bfbfbf;
 }
 .foot p {
     color: #bfbfbf;
+    font-size: 18px;
 }
-.nav {
-    background-color: #FFB300;
-    text-decoration: none;
+.footer {
+    display: flex;
+    /* justify-content: space-around; */
+    background-color: #ffb300;
+    padding: 10px 15% 0 15%;
+}
+.footer p {
+    font-size: 16px;
+}
+.footer.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+}
+.footer .col {
+    flex: 1 1 200px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section {
+    text-align: left;
+    color: white;
+    display: flex;
+}
+.footer-icon {
+    display: block;
+    margin-right: 15px;
+    width: auto;
+    height: 45px;
+}
+.voucher-container {
+    text-align: center;
+    position: relative;
+    padding: 20px 20px 0 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.voucher-container p {
+    color: #fff;
+}
+.voucher-button {
+    display: inline-block;
+    background-color: #fff400;
+    color: #9c0920;
+    font-weight: bold;
+    font-size: 2vw;
+    padding: 0.75vh 4vw;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    position: relative;
+    margin: 20px auto;
+}
+
+.voucher-button::before,
+.voucher-button::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    transform: translateY(-50%) scale(1.5);
+    animation: blink 0.5s infinite;
+}
+
+.voucher-button::before {
+    left: -4vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
+    border-width: 1.3vh 1.3vw; /* Thay đổi kích thước tam giác */
+    border-color: transparent transparent transparent #66ff66;
+}
+
+.voucher-button::after {
+    right: -4vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
+    border-width: 1.3vh 1.3vw; /* Thay đổi kích thước tam giác */
+    border-color: transparent #66ff66 transparent transparent;
+    animation: blink-right 0.5s infinite;
+}
+
+p {
+    font-size: 2.5vh;
+}
+
+@keyframes blink {
+    0% {
+        border-color: transparent transparent transparent #66ff66;
+    }
+    25% {
+        border-color: transparent transparent transparent #ff0000;
+    }
+    50% {
+        border-color: transparent transparent transparent #0000ff;
+    }
+    75% {
+        border-color: transparent transparent transparent #ffcc00;
+    }
+    100% {
+        border-color: transparent transparent transparent #66ff66;
+    }
+}
+
+@keyframes blink-right {
+    0% {
+        border-color: transparent #66ff66 transparent transparent;
+    }
+    25% {
+        border-color: transparent #ff0000 transparent transparent;
+    }
+    50% {
+        border-color: transparent #0000ff transparent transparent;
+    }
+    75% {
+        border-color: transparent #ffcc00 transparent transparent;
+    }
+    100% {
+        border-color: transparent #66ff66 transparent transparent;
+    }
+}
+
+.clms {
+    padding-top: 24px;
+}
+.clms .sepa {
+    height: 300px;
+    padding: 0 0;
+    border-left: 1px solid #bfbfbf;
+    border-right: 1px solid #bfbfbf;
+}
+.map-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Tỷ lệ 16:9 */
+    height: 0;
+    overflow: hidden;
+}
+.map-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
