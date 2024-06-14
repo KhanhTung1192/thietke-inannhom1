@@ -3,6 +3,7 @@ const btns = document.querySelectorAll('.pageBtn');
 const indicatorSubject = document.querySelector('.col.page-indicator-subject');
 const btnsubject = document.querySelectorAll('.pageBtnsubject');
 
+
 indicator.addEventListener('click', e => {
 
  btns.forEach(pageBtn => {
