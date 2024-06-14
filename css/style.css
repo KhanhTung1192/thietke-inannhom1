@@ -17,6 +17,10 @@ max-height: 200px;
     text-align: left;
     justify-content: flex-start;
 }
+.baby{
+    margin:auto;
+    
+}
 
 #carouselProduct .carousel-control-next{
     justify-content:flex-end;
