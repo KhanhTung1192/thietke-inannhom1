@@ -20,8 +20,9 @@
 </head>
 <body>
     <head>
+      <div class="container-sm">
     <div class="row">
-        <div class="col-3">
+        <div class="col-md-3">
             <div class="boxsanpham">
                 <div class="row box">
                     <div><img src="img/anh1.png" alt=""><p>Cardvisit</p></div>
@@ -43,11 +44,11 @@
                     <div><img src="img/anh17.png" alt=""><p>Quà tặng</p></div>
                 </div>
             </div>
-            <div class="col-3">
-                <img src="img/anh-vua.png" class="anhvua" alt="">
+            <div class="row mb-3">
+                <img src="img/anh-vua.png" class="img-fluid" alt="">
             </div>
-            <div class="col-3">
-                <img src="img/anh-vua.png" class="anhvua" alt="">
+            <div class="row">
+                <img src="img/anh-vua.png" class="anhvua1" alt="">
             </div>
         </div>
         
@@ -324,19 +325,21 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="row col-4">
-                        <nav class="chuyenpage">
-                            <ul class="pagination">
-                                <li class="page-item">PAGE</li>
-                                <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
-                                <li class="page-item"><a href="#" class="on">1</a></li>
-                                <li class="page-item"><a href="#">2</a></li>
-                                <li class="page-item"><a href="#">3</a></li>
-                                <li class="page-item"><a href="#">4</a></li>
-                                <li class="page-item"><a href="#">5</a></li>
-                                <li class="page-item"><a href="#">6</a></li>
-                                <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
-                            </ul>
-                        </nav>
+                      <nav aria-label="...">
+                        <ul class="pagination">
+                          <li class="page-item disabled">
+                            <a class="page-link">Previous</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">1</a></li>
+                          <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="#">2</a>
+                          </li>
+                          <li class="page-item"><a class="page-link" href="#">3</a></li>
+                          <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                          </li>
+                        </ul>
+                      </nav>
                         <div class="chuyenpage">
                             &#8883;
                             <a href="#" class="axemthem">XEM THÊM</a>
@@ -348,6 +351,7 @@
         </div>
     </div>
     </div>
+  </div>
 </head>
     
 </body>
