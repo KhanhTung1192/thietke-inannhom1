@@ -37,3 +37,10 @@
 .chosen{
     background-color: brown;
 }
+
+.white-background{
+    background-color: white;
+    color: grey;
+    font-size: small;
+    padding: 0.5em;
+}
