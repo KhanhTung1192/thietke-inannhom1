@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Package Form</title>
+  <!-- Bao gồm Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .package-form {
+      border: 1px solid #c00;
+      padding: 20px;
+      border-radius: 5px;
+      background-color: #fff;
+    }
+    .package-form h3 {
+      background-color: #c00;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      border-radius: 5px;
+      margin-top: 0;
+      font-weight: bold;
+    }
+    .package-form label {
+      font-weight: bold;
+    }
+    .package-form .form-control {
+      margin-bottom: 10px;
+    }
+    .package-form .form-group {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .package-form .form-group label {
+      flex: 1;
+    }
+    .package-form .form-group .form-control {
+      flex: 2;
+    }
+    .package-form .form-group .input-group-text {
+      flex: 1;
+    }
+    .package-form .btn-submit {
+      width: 100%;
+      background-color: #c00;
+      color: #fff;
+      border: none;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+    .package-form .btn-submit:hover {
+      background-color: #a00;
+    }
+    .package-form hr {
+      border: 0;
+      border-top: 1px solid #c00;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-2">
+      <div class="package-form">
+        <h3>GÓI IN TIÊU CHUẨN</h3>
+        <div class="form-group">
+          <label for="paperType">Loại giấy:</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="paperType" value="Couche 300" readonly>
+            <div class="input-group-append">
+              <span class="input-group-text">gsm</span>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="form-group">
+          <label for="size">Kích thước:</label>
+          <input type="text" class="form-control" id="size" value="9 x 5,4" readonly>
+        </div>
+        <hr>
+        <div class="form-group">
+          <label for="pages">Số trang:</label>
+          <input type="text" class="form-control" id="pages" placeholder="Nhập số trang">
+          <span class="input-group-text">trang</span>
+        </div>
+        <hr>
+        <div class="form-group">
+          <label for="finishing">Gia công:</label>
+          <input type="text" class="form-control" id="finishing" value="Cán mờ 2 mặt" readonly>
+        </div>
+        <hr>
+        <div class="form-group">
+          <label for="quantity">* Số lượng:</label>
+          <input type="number" class="form-control" id="quantity" placeholder="Nhập số lượng">
+          <span class="input-group-text">hộp</span>
+        </div>
+        <hr>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="emailcanhan@gmail.com">
+        </div>
+        <hr>
+        <div class="form-group">
+          <label for="phone">* Điện thoại:</label>
+          <input type="tel" class="form-control" id="phone" placeholder="Số điện thoại liên hệ">
+        </div>
+        <button type="submit" class="btn btn-submit">ĐẶT GÓI TIÊU CHUẨN</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bao gồm Bootstrap JavaScript và các thư viện cần thiết -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
