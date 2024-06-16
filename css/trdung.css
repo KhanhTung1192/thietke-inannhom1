@@ -61,6 +61,5 @@
             height: 70px; /* Tùy chỉnh kích thước biểu tượng */
             /* border-radius: 50%; Tùy chỉnh hình dạng biểu tượng */
         }
-        .carousel-inner{
-            margin: 0 0 0 15%;
+        .tintuc .carousel-inner{
         }

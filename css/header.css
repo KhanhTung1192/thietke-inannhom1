@@ -1,0 +1,128 @@
+.rowtren, .rowduoi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .rem3 {
+    height: 3rem;
+  }
+  .rem2 {
+    height: 2rem;
+  }
+  .rem18 {
+    height: 1.8rem;
+  }
+  .rem16 {
+    height: 1.6rem;
+  }
+  .rem26 {
+    height: 2.6rem;
+  }
+  .rem28 {
+    height: 2.8rem;
+  }
+  .back1 {
+    background-color: rgb(255, 255, 255);
+  }
+  .back2 {
+    background-color: #ffc300;
+  }
+  .logo {
+    height: 3rem;
+    display: block;
+    margin:auto;
+  }
+  header ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0 0 0 0;
+  }
+  header ul li {
+    font-size: smaller;
+    float: left;
+    padding: 0.2rem 2rem 0 0;
+  }
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+  header ul li img {
+    height: 0.4rem;
+  }
+  #menu {
+    padding: 0 0 0 0;
+    display: grid;
+    align-items: center;
+  }
+  .phonenut {
+    border-radius: 50px;
+    height: 1.5rem;
+    width: 7.8rem;
+    display: block;
+    margin: 0.8rem 0 0 0;
+    padding: 0 0 0 0;
+    font-size: small;
+  }
+  .loginnut {
+    border-radius: 50px;
+    height: 1.5rem;
+    width: 6.7rem;
+    display: block;
+    margin: 0.8rem 0 0 0;
+    padding: 0 0 0 0;
+    font-size: small;
+  }
+  .phonehinh,
+  .loginhinh {
+    height: 1rem;
+    padding: 0 0.4rem 0.1rem 0;
+  }
+  .center button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .sanphamnut {
+    background-color: #9c0920;
+  }
+  .back2 input {
+    height: 1.6rem;
+    display: block;
+    margin: 0.2rem 0 0.2rem 0;
+    border-radius: 50px;
+    font-size: smaller;
+  }
+  .giohang {
+    background-color: #9c0920;
+    border: none;
+    margin: 0;
+    height: 1.6rem;
+    margin: 0.2rem 0 0.2rem 0;
+  }
+  .dichvu {
+    background-color: #d5007b;
+    border: none;
+    margin: 0;
+    width: 5.8rem;
+    height: 1.6rem;
+    margin: 0.2rem 0 0.2rem 0;
+  }
+  .menusanpham {
+    height: 1.4rem;
+    float: left;
+    margin-top: 0.25rem;
+    align-items: center;
+  }
+  .sanphamnut p {
+    color: white;
+    margin: 0.2rem 0 0 0;
+    padding-left: 2rem;
+    font-size: large;
+  }
+  .right{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .coverimg{
+    /* image-resolution: ; */
+  }

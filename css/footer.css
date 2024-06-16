@@ -1,8 +1,14 @@
-footer .container {
-    padding-bottom: 15px;
+@font-face {
+    font-family: avoFont;
+    src: url(/font/Avo.ttf);
 }
-footer .row {
-    margin-right: 0;
+@font-face {
+    font-family: avoBoldFont;
+    src: url(/font/AvoBold.ttf);
+}
+*{
+    font-family: "roboto";
+    word-wrap: normal;
 }
 .foot {
     position: relative;
@@ -19,88 +25,93 @@ footer .row {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(14, 4, 0, 0.9);
     z-index: 1;
 }
 .content {
     position: relative;
     z-index: 2;
 }
+.logofoot{
+    width: 10rem;
+    height: auto;
+    padding: 0 0 0 0;
+}
 .tab {
-    padding: 10px 10% 0 10%;
+    display: flex;
+    align-items: center;
+
 }
 .foot .tel {
     color: #ffda00 !important;
 }
 .foot a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1rem;
     color: #bfbfbf;
+    line-height: 1.3;
+    
 }
 .foot p {
     color: #bfbfbf;
-    font-size: 18px;
+    font-size: 1rem;
 }
-.footer {
-    display: flex;
-    /* justify-content: space-around; */
+.rowbackground{
     background-color: #ffb300;
-    padding: 10px 15% 0 15%;
+    height: 3.5rem;
 }
-.footer p {
-    font-size: 16px;
-}
-.footer.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: 0;
-}
-.footer .col {
-    flex: 1 1 200px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.footer-section {
-    text-align: left;
+.rowbackground .col-md-6{
     color: white;
     display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0.45rem 0;
+}
+.rowbackground .rowfooter{
+    flex:auto;
+}
+.rowbetween, footer .col-10{
+    display: flex;
+    flex-direction: center;
+    justify-content: center;    
+}
+.rowbetween p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    display: inline-flexbox;
+    padding-left: 1rem;
 }
 .footer-icon {
-    display: block;
-    margin-right: 15px;
-    width: auto;
-    height: 45px;
+height: 2.6rem;
 }
 .voucher-container {
     text-align: center;
     position: relative;
-    padding: 20px 20px 0 20px;
-    border-radius: 10px;
-    font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     overflow: hidden;
+    padding-top: 2rem;
 }
 .voucher-container p {
     color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 0;
 }
 .voucher-button {
     display: inline-block;
     background-color: #fff400;
     color: #9c0920;
     font-weight: bold;
-    font-size: 2vw;
-    padding: 0.75vh 4vw;
+    font-size: 3vw;
+    padding: 0 5rem 0.4rem 5rem ;
     border: none;
     border-radius: 50px;
     cursor: pointer;
     position: relative;
-    margin: 20px auto;
+    font-family: avoBoldFont;
+    scale:70%;
 }
 
 .voucher-button::before,
@@ -116,13 +127,13 @@ footer .row {
 }
 
 .voucher-button::before {
-    left: -4vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
+    left: -2vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
     border-width: 1.3vh 1.3vw; /* Thay đổi kích thước tam giác */
     border-color: transparent transparent transparent #66ff66;
 }
 
 .voucher-button::after {
-    right: -4vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
+    right: -2vw; /* Đặt lại vị trí bắt đầu và cách xa nút bấm */
     border-width: 1.3vh 1.3vw; /* Thay đổi kích thước tam giác */
     border-color: transparent #66ff66 transparent transparent;
     animation: blink-right 0.5s infinite;
@@ -169,28 +180,24 @@ p {
 }
 
 .clms {
-    padding-top: 24px;
+    padding-top: 3rem;
+}
+.infofooter{
+    line-height: 2;
+}
+footer h4{
+    padding-bottom: 2rem;
 }
 .clms .sepa {
-    height: 230px;
+    line-height: 2;
     padding: 0 0;
-    border-left: 1px solid #bfbfbf;
-    border-right: 1px solid #bfbfbf;
+    border-left: 1px solid rgba(191,191,191,.3);
+    border-right: 1px solid rgba(191,191,191,.3);
 }
-.map-container {
-    position: relative;
-    padding-bottom: 56.25%; /* Tỷ lệ 16:9 */
-    height: 0;
-    overflow: hidden;
+.map-container{
+    height: 14rem;
 }
 .map-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 90%;
-    border: 0;
-}
-footer hr {
-
+    width: 85%;
+    height: 100%;
 }
