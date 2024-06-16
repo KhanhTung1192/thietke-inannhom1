@@ -6,7 +6,7 @@
     font-family: avoBoldFont;
     src: url(/font/AvoBold.ttf);
 }
-*{
+header,footer{
     font-family: "roboto";
     word-wrap: normal;
 }
