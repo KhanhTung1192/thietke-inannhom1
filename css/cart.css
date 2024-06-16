@@ -1,0 +1,32 @@
+.body_cart {
+    margin: auto;
+    width: 80%;
+}
+
+.check_input {
+    margin-top: 40px;
+}
+
+.text_cart {
+    margin-top: 40px;
+}
+
+.input_quantity {
+    margin-top: 25px;
+}
+
+.text_unit {
+    margin-top: 40px;
+} 
+
+.ip_erase {
+    margin-top: 35px;
+}
+
+.input_quantity a {
+    color: #BF1932;
+}
+
+a {
+    text-decoration: none;
+}
