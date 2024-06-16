@@ -6,7 +6,8 @@
   <title>Package Form</title>
   <!-- Bao gồm Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
-  <style>
+  <link href="style.css" rel="stylesheet">
+  <!-- <style>
     .package-form {
       border: 1px solid #c00;
       padding: 20px;
@@ -59,61 +60,96 @@
       border-top: 1px solid #c00;
       margin: 10px 0;
     }
-  </style>
+  </style> -->
 </head>
 <body>
-
-<div class="container mt-4">
-  <div class="row">
-    <div class="col-2">
-      <div class="package-form">
-        <h3>GÓI IN TIÊU CHUẨN</h3>
-        <div class="form-group">
-          <label for="paperType">Loại giấy:</label>
-          <div class="input-group">
-            <input type="text" class="form-control" id="paperType" value="Couche 300" readonly>
-            <div class="input-group-append">
-              <span class="input-group-text">gsm</span>
-            </div>
-          </div>
-        </div>
-        <hr>
-        <div class="form-group">
-          <label for="size">Kích thước:</label>
-          <input type="text" class="form-control" id="size" value="9 x 5,4" readonly>
-        </div>
-        <hr>
-        <div class="form-group">
-          <label for="pages">Số trang:</label>
-          <input type="text" class="form-control" id="pages" placeholder="Nhập số trang">
-          <span class="input-group-text">trang</span>
-        </div>
-        <hr>
-        <div class="form-group">
-          <label for="finishing">Gia công:</label>
-          <input type="text" class="form-control" id="finishing" value="Cán mờ 2 mặt" readonly>
-        </div>
-        <hr>
-        <div class="form-group">
-          <label for="quantity">* Số lượng:</label>
-          <input type="number" class="form-control" id="quantity" placeholder="Nhập số lượng">
-          <span class="input-group-text">hộp</span>
-        </div>
-        <hr>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" class="form-control" id="email" placeholder="emailcanhan@gmail.com">
-        </div>
-        <hr>
-        <div class="form-group">
-          <label for="phone">* Điện thoại:</label>
-          <input type="tel" class="form-control" id="phone" placeholder="Số điện thoại liên hệ">
-        </div>
-        <button type="submit" class="btn btn-submit">ĐẶT GÓI TIÊU CHUẨN</button>
-      </div>
+  <div class="row justify-content-center">
+  <div class="col-3">
+    <div class="form">
+    <div class="package-form form-head text-center">
+      <p>Gói in tiêu chuẩn</p>
     </div>
-  </div>
+        <div class="form-group row justify-content-center">
+            <div class="col-4">
+              <p class = "in-form">Loại giấy</p>
+              <p class = "in-form">Kích thước</p>
+              <p class="in-form">Số trang </p>
+              <p class="in-form">Gia công</p>
+            </div>
+            <div class="col-4">
+              <p class = "in-form">Couche 300</p>
+              <p class = "in-form">9*5.4</p>
+              <p class="in-form">
+                <input
+                type="text"
+                class="form-control"
+                id="pages"
+            />  
+              </p>
+              <p class="in-form">Cán mờ 2 mặt</p>
+            </div>
+            <div class="col-3">
+              <p class = "in-form">gsm</p>
+              <p class = "in-form"><br /></p>
+              <p class="in-form">Trang </p>
+              <p class="in-form"><br /></p>
+            </div>
+        </div>
+        <div class="form-group row justify-content-center">
+            <div class="col-4"></div>
+            <div class="col-7"><hr /></div>
+        </div>
+        <div class="form-group row justify-content-center">
+            <div class="col-4"></div>
+            <div class="col-7"><hr /></div>
+        </div>
+        <div class="form-group row justify-content-center">
+            <div class="col-4">*Số lượng:</div>
+            <div class="col-4">
+                <input
+                    type="text"
+                    class="form-control"
+                    id="products"
+                />
+            </div>
+            <div class="col-3">hộp</div>
+        </div>
+        <div class="form-group row justify-content-center">
+            <div class="col-4">*Email:</div>
+            <div class="col-7">
+                <input
+                    type="text"
+                    class="form-control"
+                    id="Email"
+                    placeholder="example@gmail.com"
+                />
+            </div>
+        </div>
+        <div class="form-group row justify-content-center">
+            <div class="col-4">*Phone:</div>
+            <div class="col-7">
+                <input
+                    type="text"
+                    class="form-control"
+                    id="Phone"
+                    placeholder="Số điện thoại"
+                />
+            </div>
+        </div>
+<!-- Đặt hàng -->
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <button>
+                <img src="../img/cart.png" alt="">
+                Đặt gói tiêu chuẩn
+            </button>
+        </div>
+    </div>
 </div>
+</div>
+
+
+
 
 <!-- Bao gồm Bootstrap JavaScript và các thư viện cần thiết -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

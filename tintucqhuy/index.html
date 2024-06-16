@@ -11,6 +11,7 @@
         <title>Document</title>
     </head>
     <body>
+        <!-- Link trang chủ -->
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-10 grid">
@@ -33,87 +34,95 @@
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-2 grid form">
-                    <div class="package-form text-center">
-                        <p>Gói in tiêu chuẩn</p>
-                    </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-4">Loại giấy</div>
-                            <div class="col-5">Couche 300</div>
-                            <div class="col-2">gsm</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">Kích thước</div>
-                            <div class="col-5">9 x 5,4</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">Số trang</div>
-                            <div class="col-5">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="pages"
-                                />
-                            </div>
-                            <div class="col-2">trang</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">Gia công</div>
-                            <div class="col-5">Cán mờ 2 mặt</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4"></div>
-                            <div class="col-7"><hr /></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4"></div>
-                            <div class="col-7"><hr /></div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">Số lượng</div>
-                            <div class="col-5">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="products"
-                                />
-                            </div>
-                            <div class="col-2">hộp</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">Email</div>
-                            <div class="col-7">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="Email"
-                                    placeholder="example@gmail.com"
-                                />
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-4">Email</div>
-                            <div class="col-7">
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="Phone"
-                                    placeholder="Số điện thoại"
-                                />
-                            </div>
-                        </div>
-                    </div>
+                <!-- Form đặt hàng -->
+                <div class="row justify-content-center">
+                <div class="col-11">
                     <div class="row justify-content-center">
-                        <div class="col-10">
-                            <button>
-                                <img src="../img/cart.png" alt="">
-                                Đặt gói tiêu chuẩn
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 grid">
+                    <div class="col-3">
+                      <div class="form">
+                      <div class="package-form form-head text-center">
+                        <p>Gói in tiêu chuẩn</p>
+                      </div>
+                          <div class="form-group row justify-content-center">
+                              <div class="col-4">
+                                <p class = "in-form">Loại giấy</p>
+                                <p class = "in-form">Kích thước</p>
+                                <p class="in-form">Số trang </p>
+                                <p class="in-form">Gia công</p>
+                              </div>
+                              <div class="col-5">
+                                <p class = "in-form">Couche 300</p>
+                                <p class = "in-form">9*5.4</p>
+                                <p class="in-form">
+                                  <input
+                                  type="text"
+                                  class="form-control"
+                                  id="pages"
+                              />  
+                                </p>
+                                <p class="in-form">Cán mờ 2 mặt</p>
+                              </div>
+                              <div class="col-2">
+                                <p class = "in-form">gsm</p>
+                                <p class = "in-form"><br /></p>
+                                <p class="in-form">Trang </p>
+                                <p class="in-form"><br /></p>
+                              </div>
+                          </div>
+                          <div class="form-group row justify-content-center">
+                              <div class="col-4"></div>
+                              <div class="col-7"><hr /></div>
+                          </div>
+                          <div class="form-group row justify-content-center">
+                              <div class="col-4"></div>
+                              <div class="col-7"><hr /></div>
+                          </div>
+                          <div class="form-group row justify-content-center">
+                              <div class="col-4">*Số lượng:</div>
+                              <div class="col-5">
+                                  <input
+                                      type="text"
+                                      class="form-control"
+                                      id="products"
+                                  />
+                              </div>
+                              <div class="col-2">hộp</div>
+                          </div>
+                          <div class="form-group row justify-content-center">
+                              <div class="col-4">*Email:</div>
+                              <div class="col-7">
+                                  <input
+                                      type="text"
+                                      class="form-control"
+                                      id="Email"
+                                      placeholder="example@gmail.com"
+                                  />
+                              </div>
+                          </div>
+                          <div class="form-group row justify-content-center">
+                              <div class="col-4">*Phone:</div>
+                              <div class="col-7">
+                                  <input
+                                      type="text"
+                                      class="form-control"
+                                      id="Phone"
+                                      placeholder="Số điện thoại"
+                                  />
+                              </div>
+                          </div>
+                  <!-- Đặt hàng -->
+                      <div class="row justify-content-center">
+                          <div class="col-7">
+                              <button>
+                                  <img src="../img/cart.png" alt="">
+                                  Đặt gói tiêu chuẩn
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                <!-- Cột chính  -->
+                <div class="col-4">
                     <div
                         id="carouselExampleControls"
                         class="carousel slide"
@@ -214,6 +223,7 @@
                         />
                     </div>
                 </div>
+                <!-- Cột vietnamairline  -->
                 <div class="col-4 grid right-col">
                     <h4>CARDVISIT Vietnam Airline</h4>
                     <hr />
@@ -244,6 +254,9 @@
                     </div>
                 </div>
             </div>
+            </div>
+        </div>
+            <!-- Đoạn text -->
             <div class="row justify-content-center detail">
                 <div class="col-2 grid"></div>
                 <div class="col-8 grid">
