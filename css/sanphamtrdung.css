@@ -13,16 +13,16 @@
     display: inline;
     padding: 0;
     font-size: small;
-    
-    
-    
+}
+.col-4{
+    padding-left: 50px;
 }
 
 /* .sanpham{
     text-align: center;
 } */
 .td{
-    width: 3rem;
+    width: 2.8rem;
 }
 .iconsanpham {
     display: inline;
@@ -35,6 +35,7 @@
     display: inline-block;
     text-align: center;
     margin-bottom: 1px;
+    
 }
 .col-4{
     margin-bottom: 20px;
