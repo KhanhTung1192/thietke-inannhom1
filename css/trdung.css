@@ -11,27 +11,22 @@
 .color{
     color: red;
 }
-.item{
-    float: left;
-    padding-left: 20px;
-    margin-left: 100px;
-    margin-top: 70px;
-}
+
 .banner p{
     margin: 0;
 }
 .fix{
-    width: 10%;
+    width: 20%;
     margin: 10px;
     display: inline-block;
     
 }
-.carousel-item{
+.tintuc .carousel-item{
     padding-left: 600px;
    
 }
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.tintuc .carousel-control-prev-icon,
+.tintuc .carousel-control-next-icon {
             background-color: yellow;
         }
             .carousel-control-prev {
@@ -48,5 +43,6 @@
 .fix p{
     display: inline-block;
     max-width: 100%;
-    
+    word-wrap: break-word;
+    font-size: 10px;
 }
