@@ -1,0 +1,154 @@
+
+.form {
+    /* padding: 0 0 0 0 !important; */
+    border: 1px solid #9C0000;
+    
+    box-shadow: 1px 1px 16px #9C0000;
+} /* chỉnh viền */
+.package-form {
+    background-color: #9C0920;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-group {
+    font-size: 0.7rem;
+}
+.in-form{
+    float:left;
+    /* margin: 0.7rem 0 0.7rem 0; */
+    letter-spacing: 0;
+}
+.form-control{
+    height: 1rem;
+}
+.form-group .col-4, .form-group .col-5 {
+    padding-right: 0 !important;
+}
+#pages {
+    border: none;
+}
+.form button {
+    margin-top: 36px;
+    margin-left: auto !important;
+    margin-left: auto !important;
+    padding: 5px;
+    background-color: #9C0920;
+    color: #fff;
+    font-size: 14.8px;
+    border-radius: 50px;
+    border: 1px solid #BF1932;
+}
+.carousel-thumbnails img {
+    width: 70px;
+    height: auto;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.15s ease-in-out;
+}
+.carousel-thumbnails img:hover {
+    opacity: 1;
+}
+.right-col {
+    box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.7);
+} /* đổ bóng */
+.right-col h4 {
+    color: #9c0920;
+    font-size: 25px;
+    padding-top: 10px;
+} /* tiêu đề hộp bên phải */
+.right-col hr {
+    color: #9c0000;
+    width: 50%;
+}
+.right-col button {
+    background-color: #bf1932;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 19.9px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px 10px;
+    margin: 12px auto 12px auto;
+} /* nút hộp bên phải */
+.contact-right {
+    text-transform: uppercase;
+}
+.tel-mail a {
+    text-decoration: none;
+    color: #bf1932;
+}
+.detail {
+    padding-top: 32px;
+}
+.intro h6 {
+    font-size: 17.75px;
+    text-transform: uppercase;
+} /* chữ bé phần giới thiệu */
+.intro h6 span {
+    color: #9c0920;
+    font-size: 27.6px;
+} /* chữ to phần giới thiệu */
+.intro hr {
+    width: 33%;
+    color: #9c0000;
+} /* đường kẻ đỏ */
+.intro p {
+    font-size: 17px;
+} /* text intro*/
+.faq-box {
+    background-color: #9c0920;
+} /* nền của faq */
+.faq-box p {
+    margin-bottom: 15px;
+}
+.b {
+    font-size: 57px;
+    color: #fff;
+    padding: 0 0 !important;
+} /* chữ to */
+.separator-container {
+    display: flex;
+    align-items: center;
+}
+.separator {
+    border-left: 3px solid #fff;
+    height: 70%;
+} /* vạch kẻ */
+.s {
+    font-size: 24px;
+    color: #fff;
+    padding: 0 10px !important;
+} /* chữ bé */
+.link-faq {
+    /* padding-top: 24px; */
+    border: 1px solid #ccc;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+} /* các dòng link */
+.link-faq hr {
+    margin: auto auto;
+    width: 73.8%;
+    color: #b3b3b3;
+}
+.faq-line {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 16px;
+    padding: 10px;
+}
+.faq-line img {
+    width: 8.6px;
+    height: 15px;
+}
+.p-detail h6 {
+    font-size: 20px;
+    color: #bf1932;
+} /* tiêu đề phần chi tiết */
+.p-detail {
+    padding-top: 32px;
+    font-size: 17px;
+} /* text phần chi tiết */

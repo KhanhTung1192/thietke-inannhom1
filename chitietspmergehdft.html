@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="/css/footer.css" />
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/robotofamily.css">
+  <link rel="stylesheet" href="/css/styletintuc.css">
+  <link rel="stylesheet" href="/css/vuong.css" />
+</head>
+
+<body>
+  <!-- header Khanh Tung -->
+  <header>
+    <div class="back1">
+      <div class="container">
+        <div class="row rem3 rowtren">
+          <div class="col-2 rem3">
+            <a href="index.html"><img src="img/header/Logo.png" alt="" class="logo" /></a>
+          </div>
+          <div class="col-5 rem3" id="menu">
+            <ul class="roboto-light">
+              <li>
+                <a href="">Dịch vụ <img src="img/header/list.png" alt="" /></a>
+              </li>
+
+              <li>
+                <a href="">Dự án <img src="img/header/list.png" alt="" /></a>
+              </li>
+
+              <li>
+                <a href="">Chính sách <img src="img/header/list.png" alt="" /></a>
+              </li>
+
+              <li>
+                <a href="">Tin tức <img src="img/header/list.png" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-3 rem3">
+            <div class="row rem3 right">
+              <div class="col-6 rem3 right">
+                <button type="button" class="btn btn-danger phonenut roboto-bold">
+                  <img src="img/header/phone.png" class="phonehinh" alt="" />0971 214 189
+                </button>
+              </div>
+              <div class="col-6 rem3 right">
+                <button type="button" class="btn btn-outline-danger loginnut roboto-bold">
+                  <img src="img/header/login.png" class="loginhinh" alt="" />ĐĂNG NHẬP
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="back2">
+      <div class="container">
+        <div class="row rem2 nut rowduoi">
+          <div class="col-2 rem2 sanphamnut">
+            <img src="img/header/menu san pham.png" class="menusanpham" alt="" />
+            <p class="roboto-bold">SẢN PHẨM CHÍNH</p>
+          </div>
+          <div class="col-5 rem2">
+            <div class="input-group">
+              <input type="search" class="form-control roboto-light" placeholder="Bạn quan tâm điều gì?"
+                aria-label="Search" aria-describedby="search-addon" style="border-radius: 50px" />
+            </div>
+          </div>
+          <div class="col-3 rem2">
+            <div class="row rem2 right">
+              <div class="col-6 rem2 right">
+                <button type="button" class="btn btn-danger loginnut giohang roboto-bold">
+                  <img src="img/header/shop.png" class="loginhinh" alt="" />GIỎ HÀNG
+                </button>
+              </div>
+              <div class="col-6 rem2 right">
+                <button type="button" class="btn btn-danger loginnut dichvu roboto-bold">
+                  <img src="img/header/thiet ke.png" class="loginhinh" alt="" />DỊCH VỤ
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- phan cua Huy Merge-->
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-10 grid">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">Trang chủ</a>
+                    </li>
+                    <li class="breadcrumb-item">
+                        <a href="#">Tin tức</a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        CARDVISIT Vietnam Airline
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Form đặt hàng -->
+        <div class="row justify-content-center">
+            <div class="col col-10">
+                <div class="row justify-content-center">
+                    <div class="col form col-3">
+                        <div class="row package-form form-head text-center">
+                            <p>Gói in tiêu chuẩn</p>
+                        </div>
+                        <div class="form-group row justify-content-center">
+                            <div class="col col-10">
+                                <div class="row">
+                                    <div class="col col-6">
+                                        <p class="text-start">Loại giấy:</p>
+                                        <p class="text-start">Kích thước:</p>
+                                        <p class="text-start">Số trang </p>
+                                        <p class="text-start">Gia công</p>
+                                    </div>
+                                    <div class="col col-6">
+                                        <p class="text-start">Couche 300</p>
+                                        <p class="text-start">9*5.4</p>
+                                        <p class="text-start">
+                                            <input type="text" class="form-control" id="pages" />
+                                        </p>
+                                        <p class="start">Cán mờ 2 mặt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-2">
+                                <p class="text-start">gsm</p>
+                                <p class="text-start"><br /></p>
+                                <p class="text-start">Trang </p>
+                                <p class="text-start"><br /></p>
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-center">
+                            <div class="col-4"></div>
+                            <div class="col-7">
+                                <hr />
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-center">
+                            <div class="col-4"></div>
+                            <div class="col-7">
+                                <hr />
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-center">
+                            <div class="col-4">*Số lượng:</div>
+                            <div class="col-5">
+                                <input type="text" class="form-control" id="products" />
+                            </div>
+                            <div class="col-2">hộp</div>
+                        </div>
+                        <div class="form-group row justify-content-center">
+                            <div class="col-4">*Email:</div>
+                            <div class="col-7">
+                                <input type="text" class="form-control" id="Email"
+                                    placeholder="example@gmail.com" />
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-center">
+                            <div class="col-4">*Phone:</div>
+                            <div class="col-7">
+                                <input type="text" class="form-control" id="Phone" placeholder="Số điện thoại" />
+                            </div>
+                        </div>
+                        <!-- Đặt hàng -->
+                        <div class="row justify-content-center">
+                            <div class="col col-8">
+                                <button>
+                                    <img src="../img/cart.png" alt="">
+                                    Đặt gói tiêu chuẩn
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cột chính  -->
+                    <div class="col-5">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="../img/anh-be.jpg" alt="First slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/anh-be.jpg" alt="Second slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/anh-be.jpg" alt="Third slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/anh-be.jpg" alt="Forth slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="../img/anh-be.jpg" alt="Fifth slide" />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only"></span>
+                            </a>
+                        </div>
+                        <div class="carousel-thumbnails text-center mt-2">
+                            <img src="../img/anh-be.jpg" alt="Thumbnail 1" data-target="#carouselExampleControls"
+                                data-slide-to="0" />
+                            <img src="../img/anh-be.jpg" alt="Thumbnail 2" data-target="#carouselExampleControls"
+                                data-slide-to="1" />
+                            <img src="../img/anh-be.jpg" alt="Thumbnail 3" data-target="#carouselExampleControls"
+                                data-slide-to="2" />
+                            <img src="../img/anh-be.jpg" alt="Thumbnail 4" data-target="#carouselExampleControls"
+                                data-slide-to="3" />
+                            <img src="../img/anh-be.jpg" alt="Thumbnail 5" data-target="#carouselExampleControls"
+                                data-slide-to="4" />
+                        </div>
+                    </div>
+                    <!-- Cột vietnamairline  -->
+                    <div class="col-4 grid right-col">
+                        <h4>CARDVISIT Vietnam Airline</h4>
+                        <hr />
+                        <p>Kỹ thuật in: Digital / Offset</p>
+                        <p>Loại giấy: Couche 300 gsm</p>
+                        <p>
+                            Quy cách gia công: Cán mờ 2 mặt, xén thành phẩm, đóng
+                            hộp quy chuẩn 100c/hộp
+                        </p>
+                        <button>
+                            <img src="../img/draw.png" alt="" />
+                            yêu cầu thiết kế riêng
+                        </button>
+                        <p class="contact-right">Thông tin thêm:</p>
+                        <div class="tel-mail">
+                            <p>
+                                <img src="../img/price.png" alt="" />
+                                Báo giá, tư vấn:
+                                <a href="tel:+84971214189"> 0971 214 189</a> <br />
+                            </p>
+                            <p>
+                                <img src="../img/mail.png" alt="" />
+                                Mail đặt hàng:
+                                <a href="mailto:inminhphat@gmail.com">inminhphat@gmai.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Đoạn text -->
+        <div class="row justify-content-center detail">
+            <div class="col col-10">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-9">
+                        <div class="row justify-content-center">
+                            <div class="col col-8 intro">
+                                <h6>
+                                    chi tiết về thiết kế <br />
+                                    <span>cardvisit vietnam airline</span>
+                                </h6>
+                                <hr />
+                                <p>
+                                    Card visit là ấn phẩm quen thuộc, nhưng câu hỏi
+                                    Card visit là gì? lại được tìm kiếm rất nhiều
+                                    trên google. Bởi có nhiều cách gọi và nhiều quy
+                                    cách khác nhau nên nhiều người muốn tìm hiểu. Ở
+                                    bài viết này, In Đông Nam có bài định nghĩa về
+                                    card visit để các bạn tham khảo
+                                </p>
+                                <p>
+                                    nối để khởi đầu cho cuộc gặp gỡ và những mối
+                                    quan hệ tốt đẹp sau đó... Nhiều quy cách khác
+                                    nhau nên nhiều người muốn tìm hiểu. Ở bài viết
+                                    này, In Đông Nam khác nhau nên nhiều người muốn
+                                    tìm hiểu. Ở bài viết này, In Đông Nam cho cuộc
+                                    gặp gỡ và những mối quan hệ tốt đẹp sau đó...
+                                    nhiều quy cách
+                                </p>
+                            </div>
+                            <div class="col col-4">
+                                <div class="row justify-content-center">
+                                    <!-- <div class="col col-10"> -->
+                                    <div class="row faq-box">
+                                        <div class="col b text-center">
+                                            <p>FAQ</p>
+                                        </div>
+                                        <div class="col-md-1 separator-container">
+                                            <div class="separator"></div>
+                                        </div>
+                                        <div class="col s">
+                                            <p>Câu hỏi thường gặp</p>
+                                        </div>
+                                    </div>
+                                    <div class="row link-faq">
+                                        <a href="" class="faq-line"><img src="../img/redone.png" alt="" />
+                                            Chất liệu cardvisit phổ biến
+                                        </a>
+                                        <hr />
+                                        <a href="" class="faq-line"><img src="../img/redone.png" alt="" />
+                                            Cardvisit dùng cho mục đích gì?
+                                            <br />tại sao cần?
+                                        </a>
+                                        <hr />
+                                        <a href="" class="faq-line"><img src="../img/redone.png" alt="" />Quy
+                                            cách tiêu chuẩn in cardvisit?
+                                        </a>
+                                        <hr />
+                                        <a href="" class="faq-line"><img src="../img/redone.png" alt="" />Đặt in
+                                            Cardvisit ở đâu uy tín?
+                                            <br />in mất bao lâu?
+                                        </a>
+                                        <hr />
+                                        <a href="" class="faq-line"><img src="../img/redone.png" alt="" />Một số
+                                            thông tin thêm
+                                        </a>
+                                        <br /><br />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center p-detail">
+                        <h6>
+                            Card visit là gì, quy cách và tên gọi của card visit
+                        </h6>
+                        <p>
+                            Card visit là ấn phẩm nhỏ có kích thước thông thường
+                            là 5,4 x 9 cm hoặc 5 x 9 cm được làm bằng giấy hoặc
+                            nhựa dùng để cung cấp thông tin cá nhân như họ tên,
+                            chức vụ, số điện thoại, email, địa chỉ, đơn vị công
+                            tác... Ngoài ra card visit còn cung cấp cả những
+                            thông tin về ngành nghề, lĩnh vực, sản phẩm kinh
+                            doanh. <br />
+                            Card visit hay name card là cách gọi phổ biến theo
+                            phiên âm tiếng Anh. Ở Việt Nam thường gọi là danh
+                            thiếp. Quy cách cơ bản của card visit như sau:
+                            <br />
+                            - Kiểu dáng card visit: Card visit thường có hình
+                            dạng chữ nhật nằm ngang hoặc chữ nhật đứng. Xén
+                            vuông góc, ngoài ra có thể bo tròn các góc hoặc bế
+                            đường gân giữa nếu là kiểu gập đôi <br />
+                            - Kích thước card visit: kích thước thông dụng nhất
+                            của card visit là 5,4 x 9 cm hoặc 5 x 9 cm. Một số
+                            trường hợp card chứa nhiều thông tin thì làm kích
+                            thước 5,4 x 18 cm hoặc 9 x 10,8 cm <br />
+                            - Chất liệu dùng in card visit: tiêu chuẩn nhất cho
+                            in card visit bằng máy offset là giấy C300 cán mờ 2
+                            mặt. Ngoài ra còn có các loại giấy khác để dùng in
+                            card visit số lượng ít lấy ngay trên máy laser như
+                            giấy off250, giấy conqueror, giấy mỹ thuật, nhựa
+                            mềm, nhựa cứng...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!-- Phan cua Vuong Merge -->
+<div class="container text-center">
+  <div class="row justify-content-md-center">
+    <div class="col col-10">
+      <p class="text-start text-danger fs-6">
+        Cardvisit là gì? quy cách và tên gọi của cardvisit.
+      </p>
+      <p class="text-start fs-6">
+        Cardvisit là ấn phẩm có kích thước thông thường là 5.4*9cm hoặc
+        5*9cm được làm bằng giấy hoặc nhựa dùng để cung cấp thông tin cá
+        nhân như họ tên, chức vụ, số điện thoại, email, địa chỉ, đơn vị công
+        tác,... Ngoài ra cardvisit còn cung cấp cả những thông tin về ngành
+        nghề, lĩnh vực, sản phẩm kinh doanh.
+      </p>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col col-8">
+        <img
+          src="./img/anh-be.jpg"
+          class="figure-img img-fluid"
+          alt="anh"
+        />
+      </div>
+    </div>
+    <div class="col col-10">
+      <p class="text-start fs-6">
+        Card visit là ấn phẩm có kích thước thông thường là 5.4*9cm hoặc
+        5*9cm được làm bằng giấy hoặc nhựa dùng để cung cấp thông tin cá
+        nhân như họ tên, chức vụ, số điện thoại, email, địa chỉ, đơn vị công
+        tác,... Ngoài ra cardvisit còn cung cấp cả những thông tin về ngành
+        nghề, lĩnh vực, sản phẩm kinh doanh.
+      </p>
+      <p class="text-start fs-6">
+        Card visit hay namecard là cách gọi phổ biến theo phiên âm tiếng
+        Anh. Ở Việt Nam thường gọi là danh thiếp. Quy cách cơ bản của card
+        visit như sau:
+      </p>
+      <p class="text-start fs-6">
+        -Kiểu dáng card visit: Card visit thường có hình dạng chữ nhật nằm
+        ngang hoặc chữ nhật đứng. Xén vuông góc, ngoài ra có thể bo tròn các
+        góc hoặc bẻ đường gần giữa nếu là card gập đôi.
+      </p>
+      <p class="text-start fs-6">
+        -Kích thước card visit: kích thước thông dụng nhất của card visit là
+        5.4*9cm hoặc 5*9cm. Một số trường hợp card chứa nhiều thông tin thì
+        làm kích thước 5.4*18cm hoặc 9*10.8cm.
+      </p>
+      <p class="text-start fs-6">
+        -Chất liệu dùng in card visit: Tiêu chuẩn nhất cho in card visit
+        bằng máy offset là giấy C300 cán mờ 2 mặt. Ngoài ra còn có các loại
+        giấy khác để dùng in cardvisit số lượng ít lấy ngay trên máy laser
+        như giấy off250, giấy conqueror, giấy mỹ thuật, nhựa mềm, nhựa
+        cứng...
+      </p>
+    </div>
+    <!-- Popup -->
+    <div class="row justify-content-xl-center">
+      <div class="col col-4">
+        <button
+          id="popupBtn"
+          type="button"
+          class="btn btn-border btn-danger"
+        >
+          <strong>YÊU CẦU BÁO GIÁ</strong>
+        </button>
+      </div>
+      <div class="col col-4">
+        <button
+          id="popupBtn"
+          type="button"
+          class="btn btn-border btn-danger btn-tuvan"
+        >
+          <strong>TƯ VẤN NGAY</strong>
+        </button>
+      </div>
+    </div>
+    <!-- Tag -->
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col col-10">
+          <div class="tag">
+            <i
+              >Tags:<a href="#">cardvisit</a>, <a href="#">in ấn</a>,
+              <a href="#">minh phát</a>, <a href="#">namecard</a>,
+              <a href="#">tag giấy</a></i
+            >
+          </div>
+          <div class="float-right">
+            <a href="#"><img src="img/trai-tim.jpg" /></a>
+            <a href="#"><img src="img/facebook.jpg" /></a>
+            <a href="#"><img src="img/like.png" width="120rem" /></a>
+            <a href="#"><img src="img/share.png" width="120rem" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Xemthem -->
+    <div class="container xl text-center">
+      <div class="row justify-content-xl-center marg">
+        <div class="col col-8">
+          <p class="line sanphamtuongtu1">SẢN PHẨM TƯƠNG TỰ</p>
+        </div>
+        <div class="col col-2">
+          <div class="xemthem">
+            <i class="bi bi-caret-right"></i>
+            <a href="#" class="axemthem">XEM THÊM</a>
+            <i class="bi bi-caret-left"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Carousel -->
+<div class="container text-center">
+  <div class="row rowchitiet">
+    <div class="col col-1">
+      <button
+        class="btn-float-left"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="prev"
+      >
+        <img src="img/pre.png" />
+        <span class="visually-hidden">Previous</span>
+      </button>
+    </div>
+    <div class="col col-10">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row justify-content-center">
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row justify-content-center">
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item float-right">
+            <div class="row justify-content-center">
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+              <div class="col col-4">
+                <img
+                  src="./img/anh-be.jpg"
+                  class="figure-img anhchitiet img-fluid"
+                  alt="..."
+                />
+                <div class="chitietsanpham">
+                  <p class="sanphamtuongtu">
+                    Hộp giấy đựng bánh trung thu loại 1
+                  </p>
+                  <img src="./img/trai-tim.jpg" alt="..." />
+                  <p class="sanphamtuongtu">151</p>
+                  <img src="./img/mat.jpg" alt="..." />
+                  <p class="sanphamtuongtu">1852</p>
+                  <img src="./img/but-chi.jpg" alt="..." />
+                  <p class="sanphamtuongtu">In Minh Phát</p>
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary btn-sm"
+                  >
+                    Giá từ:
+                    <p class="sanphamtuongtu">140.000đ / Hộp</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col col-1">
+      <button
+        class="btn-float-right"
+        type="button"
+        data-bs-target="#carouselExample"
+        data-bs-slide="next"
+      >
+        <img src="img/next.png" />
+      </button>
+    </div>
+  </div>
+</div>
+<div class="container text-center">
+  <div class="row justify-content-center">
+    <div class="col col-10">
+      <img src="img/ff7integrade.jpg" class="img-fluid" alt="anh" />
+    </div>
+  </div>
+</div>
+  <!-- chat luong gia thanh tien do van chuyen Quang Huy -->
+  <div class="rowbackground">
+    <section class="container">
+      <div class="row rowfooter rowtren">
+        <div class="col-5">
+          <div class="row rowbetween">
+            <div class="col-md-6">
+              <img src="./img/qlt-foot.png" alt="Quality Icon" class="footer-icon" />
+              <p>
+                <STRONG>CHẤT LƯỢNG</STRONG> <br />
+                Luôn Cao Cấp
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/prc-foot.png" alt="Price Icon" class="footer-icon" />
+              <p>
+                <STRONG>GIÁ THÀNH</STRONG> <br />
+                Luôn Cạnh Tranh
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div class="row rowbetween">
+            <div class="col-md-6">
+              <img src="./img/spd-foot.png" alt="Speed Icon" class="footer-icon" />
+              <p>
+                <STRONG>TIẾN ĐỘ</STRONG> <br />
+                Luôn Luôn Nhanh
+              </p>
+            </div>
+            <div class="col-md-6">
+              <img src="./img/deli-foot.png" alt="Delivery Icon" class="footer-icon" />
+              <p>
+                <STRONG>VẬN CHUYỂN</STRONG> <br />
+                Luôn Miễn Phí
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="foot">
+      <div class="content">
+          <!-- Voucher Quang Huy -->
+          <div class="container text-center">
+            <div class="row justify-content-md-center">
+            <div class="col-10 voucher-container">
+              <p class="roboto-black">
+                CLICK NGAY ĐỂ NHẬN VOUCHER 500.000 THIẾT KẾ VÀ IN ẤN
+                TẠI IN MINH PHÁT
+              </p>
+              <button class="voucher-button">500.000 Đ</button>
+            </div>
+          </div>
+
+          <!-- 3 collums lien he, ban do Quang Huy -->
+          <div class="container text-center clms">
+            <div class="row align-items-start">
+              <div class="col infofooter">
+                <h4>VỀ CHÚNG TÔI</h4>
+                <div class="roboto-light">
+                <img src="./img/logo-foot.png" alt="" class="logofoot">
+                <br>
+                <br>
+                <p>
+                  <strong class="roboto-bold">MST:</strong> 0108776768 <br />
+                  <strong class="roboto-bold">Email:</strong> Inminhphat.com@gmail.com <br />
+                  <strong class="roboto-bold">VPĐD:</strong> Số 1, ngõ 120 Định Công, <br>
+                  Phương Liệt, Thanh Xuân, Hà Nội <br />
+                </p>
+              </div>
+              </div>
+              <div class="col sepa">
+                <h4>VỚI KHÁCH HÀNG</h4>
+                <div class="roboto-light">
+                <strong class="roboto-bold">HOTLINE:            
+                <a href="tel:+84949526923" class="tel">0949 526 923</a></strong>    
+                <br />
+                <strong class="roboto-bold">CSKH:
+                <a href="tel:+84971214189" class="tel">0971 214 189</a></strong>
+                <br>
+                <a href="">HƯỚNG DẪN IN ẤN</a><br />
+                <a href="">HƯỚNG DẪN ĐẶT HÀNG</a><br />
+                <a href="">HƯỚNG DẪN THANH TOÁN</a><br />
+                <a href="">CHÍNH SÁCH IN ẤN</a><br />
+                <a href="">CHÍNH SÁCH BẢO MẬT</a>
+              </div>
+              </div>
+              <div class="col">
+                <h4>BẢN ĐỒ</h4>
+                  <div class="map-container">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.208730473723!2d105.83543221040203!3d20.98426848922533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135adcbc3f5dd8d%3A0xb43f82c77fa6b017!2zMSBOZy4gMTIwIMSQ4buLbmggQ8O0bmcsIFBoxrDGoW5nIExp4buHdCwgVGhhbmggWHXDom4sIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1718135040727!5m2!1svi!2s"
+                      allowfullscreen></iframe>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Copy right Quang Huy -->
+        <hr />
+        <div class="tab">
+          <div class="container">
+            <div class="col">
+              <p class="text-center">
+                Copyright © công ty TNHH thương mại và phát triển
+                dịch vụ Toàn Phát. All Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="js/tienhuy.js"></script>
+  <script src="js/slider.js"></script>
+</body>
+
+</html>
