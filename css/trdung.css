@@ -62,4 +62,10 @@
             /* border-radius: 50%; Tùy chỉnh hình dạng biểu tượng */
         }
         .tintuc .carousel-inner{
+            
+        }
+
+        .carousel-item.active {
+            display: flex;
+            justify-content: center;
         }
