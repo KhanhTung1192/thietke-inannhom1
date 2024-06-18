@@ -79,3 +79,13 @@
 #listofProduct #huy-page1 a p{
     padding: 7px 0;
 }
+
+.btn.btn-outline-secondary.btn-sm{
+    /* overflow: visible; */
+    /* width: 90%; */
+}
+
+.giasanpham{
+padding-right: calc(var(--bs-gutter-x)* .5);
+padding-left: calc(var(--bs-gutter-x)* .5);
+}
