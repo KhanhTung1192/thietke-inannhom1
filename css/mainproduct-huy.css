@@ -1,6 +1,10 @@
+.container-sm#body-content{
+    /* margin-top: 2em; */
+}
+
 #productSection{
-    object-fit: scale-down;
-    white-space: nowrap;
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
 
 #productSection .productImage{
@@ -10,8 +14,9 @@
     
 }
 
-#listofProduct{
+#listofProduct #huy-page1{
     font-size: 13px;
+    white-space: nowrap;
 }
 
 #listofProduct span{
@@ -43,4 +48,44 @@
     color: grey;
     font-size: small;
     padding: 0.5em;
+}
+
+#left-section-vertical-image{
+    padding-left: 0;
+    padding-right: calc(var(--bs-gutter-x));
+    /* height: 1000px; */
+}
+
+#left-section-vertical-image .row{
+    height: 600px;
+    margin-bottom: 3px;
+}
+
+#left-section-vertical-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#productSection a{
+    text-decoration: none;
+    color: black;
+}
+
+#listofProduct a:hover p{
+    background-color: rgb(226, 232, 235);
+}
+
+#listofProduct #huy-page1 a p{
+    padding: 7px 0;
+}
+
+.btn.btn-outline-secondary.btn-sm{
+    /* overflow: visible; */
+    /* width: 90%; */
+}
+
+.giasanpham{
+padding-right: calc(var(--bs-gutter-x)* .5);
+padding-left: calc(var(--bs-gutter-x)* .5);
 }

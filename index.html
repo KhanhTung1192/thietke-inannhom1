@@ -149,7 +149,7 @@
     <!-- cover img Khanh Tung-->
     <a href=""><img src="img/header/slideindex1.jpg" alt="" class="img-fluid"></a>
       <!-- slider img Tien Huy -->
-       <div class="container">
+      <div class="container">
       <div id="carouselProduct" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button
@@ -214,147 +214,108 @@
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselProduct"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <!-- <span class="visually-hidden">Previous</span> -->
+          <span class="visually-hidden">Previous</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselProduct"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
       <!-- filter, page, xem them Tien Huy -->
-      <div class="row" id="sp-noi-bat">
-        <div class="col"><h3>Sản phẩm nổi bật</h3></div>
-        <div class="col">
-          <button
-            class="btn btn-secondary dropdown-toggle white-background"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Tất cả sản phẩm
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <button
-            class="btn btn-secondary dropdown-toggle white-background"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Sắp xếp theo
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-        <div class="col page-indicator" id="navigatePage">
-          Page >
-          <button
-            type="button"
-            id="page1"
-            class="pageBtn chosen"
-            data-bs-slide-to="0"
-            data-bs-target="#carouselHighlight"
-            aria-current="true"
-          >
-            1
-          </button>
-          <button
-            type="button"
-            id="page2"
-            class="pageBtn"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="1"
-          >
-            2
-          </button>
-          <button
-            type="button"
-            id="page3"
-            class="pageBtn"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="2"
-          >
-            3
-          </button>
-          <button
-            type="button"
-            id="page4"
-            class="pageBtn"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="3"
-          >
-            4
-          </button>
-          <button
-            type="button"
-            id="page5"
-            class="pageBtn"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="4"
-          >
-            5
-          </button>
-          <
-        </div>
-        <div class="col">
-          <a href="#">Xem thêm</a>
-        </div>
-      </div>
-      <div id="carouselHighlight" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">Ice</div>
-          <div class="carousel-item">Fire</div>
-          <div class="carousel-item">Wind</div>
-          <div class="carousel-item">Lightning</div>
-          <div class="carousel-item">Poison</div>
-        </div>
-      </div>
-    </div>
-    </div>
-      <!-- filter, page, xem them Tien Huy -->
-      <div class="container">
-        <div class="col"></div>
-      </div>
+    
       <!-- Cum san pham 1 Vuong -->
-      <table class="table table-borderless">
-        <tbody>
-          <tr>
-            <td rowspan="3">
-              <img
-                src="./img/anh-to.png"
-                class="figure-img img-fluid rounded anhto"
-                alt="..."
-              />
-            </td>
-            <td>
-              <figure class="figure">
+      <div class="container xl text-center">
+        <div class="row justify-content-xl-center marg">
+            <div class="col col-7">
+                  <p class="line">SẢN PHẨM NỔI BẬT</p>
+                  <select
+                    class="form-select form-select-sm"
+                    aria-label="Small select example"
+                  >
+                    <option option value="" disabled selected hidden>
+                      Tất cả sản phẩm
+                    </option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <select
+                    class="form-select form-select-sm"
+                    aria-label="Small select example"
+                  >
+                    <option option value="" disabled selected hidden>Sắp xếp theo</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <nav>
+                    <ul class="pagination">
+                      <li class="page-item">PAGE</li>
+                      <li class="page-item"><i class="bi bi-caret-right-fill"></i></li>
+                      <li class="page-item"><a href="#" class="on">1</a></li>
+                      <li class="page-item"><a href="#">2</a></li>
+                      <li class="page-item"><a href="#">3</a></li>
+                      <li class="page-item"><a href="#">4</a></li>
+                      <li class="page-item"><a href="#">5</a></li>
+                      <li class="page-item"><a href="#">6</a></li>
+                      <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
+                    </ul>
+                  </nav>
+                  </div>
+                  <div class="col col-3">
+                  <div class="xemthem">
+                    <i class="bi bi-caret-right"></i>
+                    <a href="#" class="axemthem">XEM THÊM</a>
+                    <i class="bi bi-caret-left"></i>
+                  </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+    <div class="container xl text-center">
+      <div class="row justify-content-center">
+        <div class="col col-3">
+          <img
+          src="./img/anh-to.png"
+          class="figure-img img-fluid anhto"
+          alt="..."
+        />
+        </div>
+        <div class="col-7">
+          <div class="row justify-content-center">
+              <div class="col col-4">
+                      <img
+                        src="./img/anh-be.jpg"
+                        class="figure-img img-fluid"
+                        alt="..."
+                      />
+                      <div class="mota">
+                        <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                        <img src="./img/trai-tim.jpg" alt="..." />
+                        <p class="abc">151</p>
+                        <img src="./img/mat.jpg" alt="..." />
+                        <p class="abc">1852</p>
+                        <img src="./img/but-chi.jpg" alt="..." />
+                        <p class="abc">In Minh Phát</p>
+                        <button
+                          type="button"
+                          class="btn btn-outline-secondary btn-sm"
+                        >
+                          Giá từ:
+                          <p class="abc">140.000đ / Hộp</p>
+                        </button>
+                        </div>
+              </div>
+              <div class="col col-4">
                 <img
                   src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
+                  class="figure-img img-fluid"
                   alt="..."
                 />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
+                <div class="mota">
+                  <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
                   <img src="./img/trai-tim.jpg" alt="..." />
                   <p class="abc">151</p>
                   <img src="./img/mat.jpg" alt="..." />
@@ -366,20 +327,18 @@
                     class="btn btn-outline-secondary btn-sm"
                   >
                     Giá từ:
-                    <p>140.000đ / Hộp</p>
+                    <p class="abc">140.000đ / Hộp</p>
                   </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
+                  </div>
+              </div>
+              <div class="col col-4">
                 <img
                   src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
+                  class="figure-img img-fluid"
                   alt="..."
                 />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
+                <div class="mota">
+                  <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
                   <img src="./img/trai-tim.jpg" alt="..." />
                   <p class="abc">151</p>
                   <img src="./img/mat.jpg" alt="..." />
@@ -391,20 +350,43 @@
                     class="btn btn-outline-secondary btn-sm"
                   >
                     Giá từ:
-                    <p>140.000đ / Hộp</p>
+                    <p class="abc">140.000đ / Hộp</p>
                   </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
+                  </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col col-4">
+                      <img
+                        src="./img/anh-be.jpg"
+                        class="figure-img img-fluid"
+                        alt="..."
+                      />
+                      <div class="mota">
+                        <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                        <img src="./img/trai-tim.jpg" alt="..." />
+                        <p class="abc">151</p>
+                        <img src="./img/mat.jpg" alt="..." />
+                        <p class="abc">1852</p>
+                        <img src="./img/but-chi.jpg" alt="..." />
+                        <p class="abc">In Minh Phát</p>
+                        <button
+                          type="button"
+                          class="btn btn-outline-secondary btn-sm"
+                        >
+                          Giá từ:
+                          <p class="abc">140.000đ / Hộp</p>
+                        </button>
+                        </div>
+              </div>
+              <div class="col col-4">
                 <img
                   src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
+                  class="figure-img img-fluid"
                   alt="..."
                 />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
+                <div class="mota">
+                  <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
                   <img src="./img/trai-tim.jpg" alt="..." />
                   <p class="abc">151</p>
                   <img src="./img/mat.jpg" alt="..." />
@@ -416,22 +398,18 @@
                     class="btn btn-outline-secondary btn-sm"
                   >
                     Giá từ:
-                    <p>140.000đ / Hộp</p>
+                    <p class="abc">140.000đ / Hộp</p>
                   </button>
-                </figcaption>
-              </figure>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <figure class="figure">
+                  </div>
+              </div>
+              <div class="col col-4">
                 <img
                   src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
+                  class="figure-img img-fluid"
                   alt="..."
                 />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
+                <div class="mota">
+                  <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
                   <img src="./img/trai-tim.jpg" alt="..." />
                   <p class="abc">151</p>
                   <img src="./img/mat.jpg" alt="..." />
@@ -443,20 +421,43 @@
                     class="btn btn-outline-secondary btn-sm"
                   >
                     Giá từ:
-                    <p>140.000đ / Hộp</p>
+                    <p class="abc">140.000đ / Hộp</p>
                   </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
+                  </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col col-4">
+                      <img
+                        src="./img/anh-be.jpg"
+                        class="figure-img img-fluid"
+                        alt="..."
+                      />
+                      <div class="mota">
+                        <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                        <img src="./img/trai-tim.jpg" alt="..." />
+                        <p class="abc">151</p>
+                        <img src="./img/mat.jpg" alt="..." />
+                        <p class="abc">1852</p>
+                        <img src="./img/but-chi.jpg" alt="..." />
+                        <p class="abc">In Minh Phát</p>
+                        <button
+                          type="button"
+                          class="btn btn-outline-secondary btn-sm"
+                        >
+                          Giá từ:
+                          <p class="abc">140.000đ / Hộp</p>
+                        </button>
+                        </div>
+              </div>
+              <div class="col col-4">
                 <img
                   src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
+                  class="figure-img img-fluid"
                   alt="..."
                 />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
+                <div class="mota">
+                  <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
                   <img src="./img/trai-tim.jpg" alt="..." />
                   <p class="abc">151</p>
                   <img src="./img/mat.jpg" alt="..." />
@@ -468,20 +469,18 @@
                     class="btn btn-outline-secondary btn-sm"
                   >
                     Giá từ:
-                    <p>140.000đ / Hộp</p>
+                    <p class="abc">140.000đ / Hộp</p>
                   </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
+                  </div>
+              </div>
+              <div class="col col-4">
                 <img
                   src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
+                  class="figure-img img-fluid"
                   alt="..."
                 />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
+                <div class="mota">
+                  <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
                   <img src="./img/trai-tim.jpg" alt="..." />
                   <p class="abc">151</p>
                   <img src="./img/mat.jpg" alt="..." />
@@ -493,473 +492,298 @@
                     class="btn btn-outline-secondary btn-sm"
                   >
                     Giá từ:
-                    <p>140.000đ / Hộp</p>
+                    <p class="abc">140.000đ / Hộp</p>
                   </button>
-                </figcaption>
-              </figure>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
       <!-- img Tien Huy-->
       <div class="row banner">
-        <!-- <img src="img/ff7integrade.jpg" alt="banner" /> -->
+        <img src="img/ff7integrade.jpg" alt="banner" />
       </div>
-      <div class="container">
-      <div class="row" id="chu-de">
-        <div class="col">
-          <h3>Sản phẩm theo chủ đề</h3>
-        </div>
-        <div class="col">
-          <button
-            class="btn btn-secondary dropdown-toggle white-background"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Tất cả chủ đề
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-        <div class="col">
-          <button
-            class="btn btn-secondary dropdown-toggle white-background"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Sắp xếp theo
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </div>
-        <div class="col page-indicator-subject">
-          Page >
-          <button
-            type="button"
-            id="page-subject1"
-            class="pageBtnsubject chosen"
-            data-bs-slide-to="0"
-            data-bs-target="#carouselHighlight"
-            aria-current="true"
-          >
-            1
-          </button>
-          <button
-            type="button"
-            id="page-subject2"
-            class="pageBtnsubject"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="1"
-          >
-            2
-          </button>
-          <button
-            type="button"
-            id="page-subject3"
-            class="pageBtnsubject"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="2"
-          >
-            3
-          </button>
-          <button
-            type="button"
-            id="page-subject4"
-            class="pageBtnsubject"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="3"
-          >
-            4
-          </button>
-          <button
-            type="button"
-            id="page-subject5"
-            class="pageBtnsubject"
-            data-bs-target="#carouselHighlight"
-            data-bs-slide-to="4"
-          >
-            5
-          </button>
-        </div>
-        <div class="col">
-          <a href="#">Xem thêm</a>
-        </div>
-      </div>
-    </div>
       <!-- Cum san pham 2 Vuong -->
-      <div class="chu-de-san-pham">
-        <p class="line">SẢN PHẨM THEO CHỦ ĐỀ</p>
-        <select
-          class="form-select form-select-sm"
-          aria-label="Small select example"
-        >
-          <option option value="" disabled selected hidden>
-            Tất cả chủ đề
-          </option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
-        </select>
-        <select
-          class="form-select form-select-sm"
-          aria-label="Small select example"
-        >
-          <option option value="" disabled selected hidden>Sắp xếp theo</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
-        </select>
-        <nav>
-          <ul class="pagination">
-            <li class="page-item">PAGE</li>
-            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
-            <li class="page-item"><a href="#" class="on">1</a></li>
-            <li class="page-item"><a href="#">2</a></li>
-            <li class="page-item"><a href="#">3</a></li>
-            <li class="page-item"><a href="#">4</a></li>
-            <li class="page-item"><a href="#">5</a></li>
-            <li class="page-item"><a href="#">6</a></li>
-            <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
-          </ul>
-        </nav>
-        <div class="xemthem">
-          &#8883;
-          <a href="#" class="axemthem">XEM THÊM</a>
-          &#8882;
-        </div>
+      <div class="container xl text-center">
+        <div class="row justify-content-xl-center marg">
+            <div class="col col-7">
+                  <p class="line">SẢN PHẨM THEO CHỦ ĐỀ</p>
+                  <select
+                    class="form-select form-select-sm"
+                    aria-label="Small select example"
+                  >
+                    <option option value="" disabled selected hidden>
+                      Tất cả chủ đề
+                    </option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <select
+                    class="form-select form-select-sm"
+                    aria-label="Small select example"
+                  >
+                    <option option value="" disabled selected hidden>Sắp xếp theo</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                  <nav>
+                    <ul class="pagination">
+                      <li class="page-item">PAGE</li>
+                      <li class="page-item"><i class="bi bi-caret-right-fill"></i></li>
+                      <li class="page-item"><a href="#" class="on">1</a></li>
+                      <li class="page-item"><a href="#">2</a></li>
+                      <li class="page-item"><a href="#">3</a></li>
+                      <li class="page-item"><a href="#">4</a></li>
+                      <li class="page-item"><a href="#">5</a></li>
+                      <li class="page-item"><a href="#">6</a></li>
+                      <li class="page-item"><i class="bi bi-caret-left-fill"></i></li>
+                    </ul>
+                  </nav>
+                  </div>
+                  <div class="col col-3">
+                  <div class="xemthem">
+                    <i class="bi bi-caret-right"></i>
+                    <a href="#" class="axemthem">XEM THÊM</a>
+                    <i class="bi bi-caret-left"></i>
+                  </div>
+                  </div>
+                </div>
+            </div>
+      <div class="container  text-center">
+          <div class="row justify-content-center">
+            <div class="col-7">
+              <div class="row justify-content-center">
+                  <div class="col col-4">
+                          <img
+                            src="./img/anh-be.jpg"
+                            class="figure-img img-fluid"
+                            alt="..."
+                          />
+                          <div class="mota">
+                            <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                            <img src="./img/trai-tim.jpg" alt="..." />
+                            <p class="abc">151</p>
+                            <img src="./img/mat.jpg" alt="..." />
+                            <p class="abc">1852</p>
+                            <img src="./img/but-chi.jpg" alt="..." />
+                            <p class="abc">In Minh Phát</p>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary btn-sm"
+                            >
+                              Giá từ:
+                              <p class="abc">140.000đ / Hộp</p>
+                            </button>
+                            </div>
+                  </div>
+                  <div class="col col-4">
+                    <img
+                      src="./img/anh-be.jpg"
+                      class="figure-img img-fluid"
+                      alt="..."
+                    />
+                    <div class="mota">
+                      <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                      <img src="./img/trai-tim.jpg" alt="..." />
+                      <p class="abc">151</p>
+                      <img src="./img/mat.jpg" alt="..." />
+                      <p class="abc">1852</p>
+                      <img src="./img/but-chi.jpg" alt="..." />
+                      <p class="abc">In Minh Phát</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-sm"
+                      >
+                        Giá từ:
+                        <p class="abc">140.000đ / Hộp</p>
+                      </button>
+                      </div>
+                  </div>
+                  <div class="col col-4">
+                    <img
+                      src="./img/anh-be.jpg"
+                      class="figure-img img-fluid"
+                      alt="..."
+                    />
+                    <div class="mota">
+                      <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                      <img src="./img/trai-tim.jpg" alt="..." />
+                      <p class="abc">151</p>
+                      <img src="./img/mat.jpg" alt="..." />
+                      <p class="abc">1852</p>
+                      <img src="./img/but-chi.jpg" alt="..." />
+                      <p class="abc">In Minh Phát</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-sm"
+                      >
+                        Giá từ:
+                        <p class="abc">140.000đ / Hộp</p>
+                      </button>
+                      </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col col-4">
+                          <img
+                            src="./img/anh-be.jpg"
+                            class="figure-img img-fluid"
+                            alt="..."
+                          />
+                          <div class="mota">
+                            <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                            <img src="./img/trai-tim.jpg" alt="..." />
+                            <p class="abc">151</p>
+                            <img src="./img/mat.jpg" alt="..." />
+                            <p class="abc">1852</p>
+                            <img src="./img/but-chi.jpg" alt="..." />
+                            <p class="abc">In Minh Phát</p>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary btn-sm"
+                            >
+                              Giá từ:
+                              <p class="abc">140.000đ / Hộp</p>
+                            </button>
+                            </div>
+                  </div>
+                  <div class="col col-4">
+                    <img
+                      src="./img/anh-be.jpg"
+                      class="figure-img img-fluid"
+                      alt="..."
+                    />
+                    <div class="mota">
+                      <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                      <img src="./img/trai-tim.jpg" alt="..." />
+                      <p class="abc">151</p>
+                      <img src="./img/mat.jpg" alt="..." />
+                      <p class="abc">1852</p>
+                      <img src="./img/but-chi.jpg" alt="..." />
+                      <p class="abc">In Minh Phát</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-sm"
+                      >
+                        Giá từ:
+                        <p class="abc">140.000đ / Hộp</p>
+                      </button>
+                      </div>
+                  </div>
+                  <div class="col col-4">
+                    <img
+                      src="./img/anh-be.jpg"
+                      class="figure-img img-fluid"
+                      alt="..."
+                    />
+                    <div class="mota">
+                      <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                      <img src="./img/trai-tim.jpg" alt="..." />
+                      <p class="abc">151</p>
+                      <img src="./img/mat.jpg" alt="..." />
+                      <p class="abc">1852</p>
+                      <img src="./img/but-chi.jpg" alt="..." />
+                      <p class="abc">In Minh Phát</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-sm"
+                      >
+                        Giá từ:
+                        <p class="abc">140.000đ / Hộp</p>
+                      </button>
+                      </div>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col col-4">
+                          <img
+                            src="./img/anh-be.jpg"
+                            class="figure-img img-fluid"
+                            alt="..."
+                          />
+                          <div class="mota">
+                            <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                            <img src="./img/trai-tim.jpg" alt="..." />
+                            <p class="abc">151</p>
+                            <img src="./img/mat.jpg" alt="..." />
+                            <p class="abc">1852</p>
+                            <img src="./img/but-chi.jpg" alt="..." />
+                            <p class="abc">In Minh Phát</p>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary btn-sm"
+                            >
+                              Giá từ:
+                              <p class="abc">140.000đ / Hộp</p>
+                            </button>
+                            </div>
+                  </div>
+                  <div class="col col-4">
+                    <img
+                      src="./img/anh-be.jpg"
+                      class="figure-img img-fluid"
+                      alt="..."
+                    />
+                    <div class="mota">
+                      <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                      <img src="./img/trai-tim.jpg" alt="..." />
+                      <p class="abc">151</p>
+                      <img src="./img/mat.jpg" alt="..." />
+                      <p class="abc">1852</p>
+                      <img src="./img/but-chi.jpg" alt="..." />
+                      <p class="abc">In Minh Phát</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-sm"
+                      >
+                        Giá từ:
+                        <p class="abc">140.000đ / Hộp</p>
+                      </button>
+                      </div>
+                  </div>
+                  <div class="col col-4">
+                    <img
+                      src="./img/anh-be.jpg"
+                      class="figure-img img-fluid"
+                      alt="..."
+                    />
+                    <div class="mota">
+                      <p class="abc">Hộp giấy đựng bánh trung thu loại 1</p>
+                      <img src="./img/trai-tim.jpg" alt="..." />
+                      <p class="abc">151</p>
+                      <img src="./img/mat.jpg" alt="..." />
+                      <p class="abc">1852</p>
+                      <img src="./img/but-chi.jpg" alt="..." />
+                      <p class="abc">In Minh Phát</p>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary btn-sm"
+                      >
+                        Giá từ:
+                        <p class="abc">140.000đ / Hộp</p>
+                      </button>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col col-3">
+                  <img
+                  src="./img/anh-vua.png"
+                  class="figure-img img-fluid anhvua"
+                  alt="anhvua"
+                /><br />
+                <img
+                  src="./img/anh-vua.png"
+                  class="figure-img img-fluid anhvua"
+                  alt="anhvua"
+                />
+              </div>
+          </div>
       </div>
-      <table class="table table-borderless">
-        <tbody>
-          <tr>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td rowspan="3">
-              <img
-                src="./img/anh-vua.png"
-                class="figure-img img-fluid rounded anhvua"
-                alt="anhvua"
-              /><br />
-              <img
-                src="./img/anh-vua.png"
-                class="figure-img img-fluid rounded anhvua"
-                alt="anhvua"
-              />
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure class="figure">
-                <img
-                  src="./img/anh-be.jpg"
-                  class="figure-img img-fluid rounded"
-                  alt="..."
-                />
-                <figcaption class="figure-caption text-center">
-                  <p>Hộp giấy đựng bánh trung thu loại 1</p>
-                  <img src="./img/trai-tim.jpg" alt="..." />
-                  <p class="abc">151</p>
-                  <img src="./img/mat.jpg" alt="..." />
-                  <p class="abc">1852</p>
-                  <img src="./img/but-chi.jpg" alt="..." />
-                  <p class="abc">In Minh Phát</p>
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary btn-sm"
-                  >
-                    Giá từ:
-                    <p>140.000đ / Hộp</p>
-                  </button>
-                </figcaption>
-              </figure>
-            </td>
-          </tr>
-        </tbody>
-      </table>
       <!-- img Trung Dung-->
       <!-- Tin tuc, In an Trung Dung -->
       <!-- chi tiet tin tuc, xem tin tuc Trung Dung -->
@@ -968,8 +792,17 @@
         <p>Tin tức in ấn, xu hướng thiết kế</p>
         <p style="color: red;">Tin Tức cập nhật</p>
     </div>
-    <div class="container tintuc">
+    <div class="container tintuc ">
+      <div class="row justify-content-md-center">
     <div id="carouselExample" class="carousel slide">
+      <div class="row justify-content-md-center">
+        <div class="col-1">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+      </div>
+      <div class="col-5 justify-content-md-center">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
@@ -982,7 +815,7 @@
                     <img src="img/mat.jpg" alt=""><p>1754</p>
                     <br><p>Hướng dẫn sử dụng sticker</p></div>
             </div>
-            
+            <div class="col-5 justify-content-md-center">
             <div class="fix"><img src="img/anh-vua.png" class="d-block w-100" alt="...">
                 <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
                     <img src="img/mat.jpg" alt=""><p>1754</p>
@@ -992,6 +825,7 @@
                 <div><img src="img/lich.png" alt=""><p>11/6/2024</p>
                     <img src="img/mat.jpg" alt=""><p>1754</p>
                     <br><p>Hướng dẫn sử dụng sticker</p></div>
+            </div>
             </div>
           </div>
           <div class="carousel-item">
@@ -1039,17 +873,19 @@
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
+      </div>
+        <div class="col-1">
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      </div>
     </div>
+  </div>
+</div>
     </main>
+  </body>
     <div class="rowbackground">
       <section class="container">
         <div class="row rowfooter rowtren">
@@ -1166,5 +1002,5 @@
         </div>
       </div>
     </footer>
-  </body>
+  
 </html>
