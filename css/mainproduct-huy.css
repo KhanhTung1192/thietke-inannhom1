@@ -1,6 +1,12 @@
+.container-sm#body-content{
+    /* margin-top: 2em; */
+}
+
 #productSection{
     object-fit: scale-down;
     white-space: nowrap;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 
 #productSection .productImage{
@@ -47,4 +53,30 @@
 
 #left-section-vertical-image{
     padding-left: 0;
+    padding-right: calc(var(--bs-gutter-x));
+    /* height: 1000px; */
+}
+
+#left-section-vertical-image .row{
+    height: 600px;
+    margin-bottom: 3px;
+}
+
+#left-section-vertical-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#productSection a{
+    text-decoration: none;
+    color: black;
+}
+
+#listofProduct a:hover p{
+    background-color: rgb(226, 232, 235);
+}
+
+#listofProduct a p{
+    padding: 7px 0;
 }
