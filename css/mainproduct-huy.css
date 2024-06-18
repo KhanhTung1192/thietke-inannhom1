@@ -3,9 +3,7 @@
 }
 
 #productSection{
-    object-fit: scale-down;
-    white-space: nowrap;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 2em;
 }
 
@@ -16,8 +14,9 @@
     
 }
 
-#listofProduct{
+#listofProduct #huy-page1{
     font-size: 13px;
+    white-space: nowrap;
 }
 
 #listofProduct span{
@@ -77,6 +76,6 @@
     background-color: rgb(226, 232, 235);
 }
 
-#listofProduct a p{
+#listofProduct #huy-page1 a p{
     padding: 7px 0;
 }
