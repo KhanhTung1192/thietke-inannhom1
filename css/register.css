@@ -1,15 +1,19 @@
-.body_register {
+#popupdangky,#popupdangnhap{
+    scale:70%;
+}
+
+#popupdangky .body_register {
     background-color: rgb(207, 196, 196);
     width: 100%;
     margin: auto;
 }
 
-.register_field {
+#popupdangky .register_field {
     padding: 10px 0px;	
     position: relative;	
 }
 
-.register_icon {
+#popupdangky .register_icon {
     right: 40px;
     position: absolute;
     top: 23px;
@@ -17,52 +21,53 @@
     color: rgb(0 0 0 / 78%);
 }
 
-.register_input {
+#popupdangky .register_input {
     margin: auto;
     padding: 16px;
     width: 90%;	
     border: 1px solid black;
     box-shadow: 1px 1px black;
 }
-p ins {
+#popupdangky p ins {
     margin-right: 260px;
 }
 
-ins {
+#popupdangky ins {
     font-size: 13px;
 }
 
-a {
+#popupdangky a {
     color: black;
     text-decoration: none
 }
 
-.form-check {
+#popupdangky .form-check {
     margin-left: 28px;
     width: 90%;
 }
 
-.form-check-input {
+#popupdangky .form-check-input {
     padding: 10px 10px;
 }
 
-.btn_google ,.btn_facebook {
+#popupdangky .btn_google ,.btn_facebook {
     width: 80%;
     border: 1px solid black;
     box-shadow: 1px 1px black;
 }
 
-.btn_login {
+#popupdangky .btn_login {
     background-color: #F5F5F5;
     height: 70px;
 }
 
-.thumbnail {
-    background-color: rgb(207, 196, 196);
+#popupdangky .thumbnail_img {
+    width: 8rem;
+    height: auto;
 }
 
-.thumbnail_img {
-    width: 15%;
+#popupdangky .thumbnail {
+    color:white;
 }
 
         /* Định dạng popup */
@@ -97,4 +102,10 @@ a {
             border: none;
             font-size: 20px;
             cursor: pointer;
+        }
+        #popupdangky,#popupdangnhap{
+            margin-top: -50px;
+        }
+        #popupdangky{
+            margin-top: -70px;
         }
