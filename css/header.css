@@ -113,11 +113,13 @@
     margin-top: 0.25rem;
     align-items: center;
   }
-  .sanphamnut p {
+  .sanphamnut a {
     color: white;
     margin: 0.2rem 0 0 0;
     padding-left: 2rem;
     font-size: large;
+    display:block;
+    align-items: center;
   }
   .right{
     display: flex;

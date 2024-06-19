@@ -1,15 +1,15 @@
-.body_login {
+#popupdangnhap .body_login {
     background-color: rgb(207, 196, 196);
-    width: 30%;
+    width: 100%;
     margin: auto;
 }
 
-.login_field {
+#popupdangnhap .login_field {
     padding: 10px 0px;	
     position: relative;	
 }
 
-.login_icon {
+#popupdangnhap .login_icon {
     right: 40px;
     position: absolute;
     top: 23px;
@@ -17,42 +17,43 @@
     color: rgb(0 0 0 / 78%);
 }
 
-.login_input {
+#popupdangnhap .login_input {
     margin: auto;
     padding: 16px;
     width: 90%;	
     border: 1px solid black;
     box-shadow: 1px 1px black;
 }
-p ins {
+#popupdangnhap p ins {
     margin-right: 260px;
 }
 
-ins {
+#popupdangnhap ins {
     font-size: 13px;
 }
 
-a {
+#popupdangnhap a {
     color: black;
     text-decoration: none
 }
 
-.btn_google , .btn_facebook {
+#popupdangnhap .btn_google , .btn_facebook {
     width: 80%;
     border: 1px solid black;
     box-shadow: 1px 1px black;
 }
 
-.btn_register {
+#popupdangnhap .btn_register {
     background-color: #F5F5F5;
     height: 70px;
 }
 
-.thumbnail {
-    background-color: rgb(207, 196, 196);
+#popupdangnhap .thumbnail {
+    color:white;
 }
 
-.thumbnail_img {
-    width: 15%;
+#popupdangnhap .thumbnail_img {
+    width: 8rem;
+    height: auto;
 }
 
